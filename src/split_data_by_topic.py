@@ -3,11 +3,6 @@ import json
 import os
 import pandas as pd
 
-namespaces = {
-    'svg': 'http://www.w3.org/2000/svg',
-    'xlink': 'http://www.w3.org/1999/xlink'
-}
-
 class SplitLODCKGsByTopic:
     def __init__(self,kghb_quality_data_path):
         self.kghb_quality_data_path = kghb_quality_data_path
@@ -72,21 +67,6 @@ class SplitLODCKGsByTopic:
                     df_filtered = df[df['KG id'].isin(kgs_in_the_topic)]
 
                     df_filtered.to_csv(f"../data/quality_data/{topic}/{filename}",index=False)
-
-        # Create a CSVs with only yhe KGs without a domain
-        all_kgs_without_domain = []
-        for urls in kgs_by_topic_dict.values():
-            all_kgs_without_domain.extend(urls)
-        all_kgs_without_domain = [url.split("/")[-1] for url in all_kgs_without_domain]
-        for filename in os.listdir(self.kghb_quality_data_path):
-                if '.csv' in filename:
-                    file_path = os.path.join(self.kghb_quality_data_path, filename)
-                    df = pd.read_csv(file_path)
-
-                    df['KG id'] = df['KG id'].astype(str).str.strip()
-                    df_filtered = df[~df['KG id'].isin(all_kgs_without_domain)]
-
-                    df_filtered.to_csv(f"../data/quality_data/no-domain/{filename}",index=False)
     
     def extract_only_lodc(self):
         '''
@@ -113,7 +93,3 @@ class SplitLODCKGsByTopic:
                 df_filtered = df[df['KG id'].isin(identifiers)]
 
                 df_filtered.to_csv(f"../data/quality_data/all/{filename}",index=False)
-
-split_data = SplitLODCKGsByTopic('../data/quality_data/kghb_output')
-split_data.split_kgs_csv_by_topic()
-split_data.extract_only_lodc()
