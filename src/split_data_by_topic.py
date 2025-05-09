@@ -1,7 +1,4 @@
-from lxml import etree
 import requests
-from io import BytesIO
-from urllib.parse import urlparse
 import json
 import os
 import pandas as pd
