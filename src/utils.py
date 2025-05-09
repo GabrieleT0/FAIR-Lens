@@ -6,6 +6,7 @@ import requests
 from SPARQLWrapper import *
 from SPARQLWrapper import SPARQLWrapper
 from fair_vocabularies import fair_vocabularies
+from scipy.stats import shapiro
 
 def check_if_ontology(kg_id,path_to_lodcloud_data_to_use = '../data/lodcloud.json'):
     here = os.path.dirname(os.path.abspath(__file__))
@@ -135,3 +136,15 @@ def check_if_fair_vocabs(vocabs):
         if vocab in fair_vocabularies:
             fair_vocabularies_defined.append(vocab)
     return len(fair_vocabularies_defined) / total_vocabs if total_vocabs > 0 else 0
+
+def verify_normal_distribution(csv_file_path,columns_to_verify):
+    df = pd.read_csv(csv_file_path)
+    for col in columns_to_verify:
+        data = df[col].dropna() 
+        stat, p = shapiro(data)
+        print(f'Statistic: {stat}, p-value: {p}')
+        if p < 0.05:
+            print("Not all column are normally distributed")
+            return False
+    print("All column are normally distributed")
+    return True
