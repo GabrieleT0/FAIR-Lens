@@ -1,0 +1,63 @@
+KG id,KG name,KG SPARQL endpoint,RDF dump link,Ontology,F1-M Unique and persistent ID,F1-D URIs dereferenceability,F2a-M - Metadata availability via standard primary sources,F2b-M Metadata availability for all the attributes covered in the FAIR score computation,F3-M Data referrable via a DOI,F4-M Metadata registered in a searchable engine,F score,A1-D Working access point(s),A1-M Metadata availability via working primary sources,A1.2 Authentication & HTTPS support,A2-M Registered in search engines,A score,I1-D Standard & open representation format,I1-M Metadata are described with VoID/DCAT predicates,I2 Use of FAIR vocabularies,I3-D Degree of connection,I score,R1.1 Machine- or human-readable license retrievable via any primary source,"R1.2 Publisher information, such as authors, contributors, publishers, and sources",R1.3-D Data organized in a standardized way,R1.3-M Metadata are described with VoID/DCAT predicates,R score,FAIR score
+_data.odw.tw,Open Data Web,http://data.odw.tw/sparql,[],False,0,0.0,1,0.44,0,1,0.41,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.16
+card,person,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,0,0.25,1,1,1,0,0.75,1.87
+data-incubator-musicbrainz,Data Incubator: MusicBrainz,http://api.talis.com/stores/musicbrainz/services/sparql,[],False,0,0.0,1,0.56,0,1,0.43,0.0,1,0.0,1,0.5,1,1,0.0,1,0.75,1,1,1,1,1.0,2.68
+dbtune-myspace,DBTune.org MySpace RDF Service,http://dbtune.org/myspace/sparql/,[],False,0,0.0,1,0.33,0,1,0.39,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.89
+debian-package-tracking-system,Debian Package Tracking System,,[],False,0,0.0,1,0.33,0,1,0.39,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,0,1,1,0,0.5,2.14
+freebase,Freebase,,[],False,0,0.0,1,0.44,0,1,0.41,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.16
+Guillaume_Forget,GUTSTOK ,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,0,0.25,1,1,1,0,0.75,1.87
+Hoa_Thinh_Phat,Hoa Thịnh Phát,https://hoathinhphatgroup.com/lien-he/,[],False,0,0.0,1,0.44,0,1,0.41,0.5,1,0.0,1,0.62,1,0,0.0,0,0.25,1,1,1,0,0.75,2.03
+Names,Usernames ,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,0,0.25,1,1,1,0,0.75,1.87
+nextweb-gnoss,"Next Web, a global knowledge network of semantic technology and Web 3.0 (GNOSS)",,[],False,0,0.0,1,0.56,0,1,0.43,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.43
+Nordine_Bittich,Curriculum Vitae,https://bittich.be/sparql,[],False,0,0.0555555555555555,1,0.33,0,1,0.4,1.0,1,1.0,1,1.0,1,0,0.0,0,0.25,1,1,1,0,0.75,2.4
+sears,sears.com,,[],False,0,0.0,1,0.44,0,1,0.41,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,0,1,1,0,0.5,2.16
+SocialLink,SocialLink,http://sociallink.futuro.media/sparql,['https://zenodo.org/record/1451797'],False,1,0.0,1,0.78,1,1,0.8,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.8
+SocialRoles,FamilyRelations as SocialRole,,[],False,0,0.0,1,0.44,0,1,0.41,1.0,1,0.0,1,0.75,1,0,0.0,0,0.25,1,1,1,0,0.75,2.16
+socialsemweb-thesaurus,Social Semantic Web Thesaurus,http://vocabulary.semantic-web.at/PoolParty/sparql/semweb,"['http://vocabulary.semantic-web.at/PoolParty/OpenConfigPathResourceProvider/backuproot?fileName=1DAB2993-FE45-0001-CEA2-1F591C30E100/pp_project_socialsemanticwebthesaurus.trig', 'http://vocabulary.semantic-web.at/PoolParty/OpenConfigPathResourceProvider/backuproot?fileName=1DAB2993-FE45-0001-CEA2-1F591C30E100/pp_project_socialsemanticwebthesaurus.ttl', 'http://vocabulary.semantic-web.at/PoolParty/OpenConfigPathResourceProvider/backuproot?fileName=1DAB2993-FE45-0001-CEA2-1F591C30E100/pp_project_socialsemanticwebthesaurus.rdf']",False,0,0.9217877094972068,1,0.78,0,1,0.62,1.0,1,1.0,1,1.0,1,1,1.0,1,1.0,1,1,1,1,1.0,3.62
+Stammbuch,Stammbuch,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,0,0.25,1,1,1,0,0.75,1.87
+statusnet-1w6-org,statusnet-1w6-org,,[],False,0,0.0,1,0.44,0,1,0.41,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,0,1,1,0,0.5,2.16
+statusnet-alexandrefranke-com,statusnet-alexandrefranke-com,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-bka-li,statusnet-bka-li,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-ced117-net,statusnet-ced117-net,,[],False,0,0.0,1,0.33,0,1,0.39,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.89
+statusnet-chromic-org,statusnet-chromic-org,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-datenfahrt-org,statusnet-datenfahrt-org,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-davidhaberthuer-ch,statusnet-davidhaberthuer-ch,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-doomicile-de,statusnet-doomicile-de,,[],False,0,0.0,1,0.44,0,1,0.41,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,0,1,1,0,0.5,2.16
+statusnet-dtdns-net,statusnet-dtdns-net,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-equestriarp-net,statusnet-equestriarp-net,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-fcac-com,statusnet-fcac-com,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-fragdev-com,statusnet-fragdev-com,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-glou-org,statusnet-glou-org,,[],False,0,0.0,1,0.33,0,1,0.39,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.89
+statusnet-gomertronic-com,statusnet-gomertronic-com,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-hackerposse-com,statusnet-hackerposse-com,,[],False,0,0.0,1,0.44,0,1,0.41,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,0,1,1,0,0.5,2.16
+statusnet-imirhil-fr,statusnet-imirhil-fr,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-johndrinkwater-name,statusnet-johndrinkwater-name,,[],False,0,0.0,1,0.33,0,1,0.39,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.89
+statusnet-jonkman-ca,statusnet-jonkman-ca,,[],False,0,0.0,1,0.33,0,1,0.39,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.89
+statusnet-kaimi-cc,statusnet-kaimi-cc,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-lebsanft-org,statusnet-lebsanft-org,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-ludost-net,statusnet-ludost-net,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-m-kuttner-com,statusnet-m-kuttner-com,,[],False,0,0.0,1,0.33,0,1,0.39,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.89
+statusnet-mamalibre-com-ar,statusnet-mamalibre-com-ar,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-mrblog-nl,statusnet-mrblog-nl,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-mulestable-net,statusnet-mulestable-net,,[],False,0,0.0,1,0.33,0,1,0.39,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.89
+statusnet-my-status-tk,statusnet-my-status-tk,,[],False,0,0.0,1,0.33,0,1,0.39,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.89
+statusnet-ourcoffs-org-au,statusnet-ourcoffs-org-au,,[],False,0,0.0,1,0.33,0,1,0.39,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.89
+statusnet-panda-id-au,statusnet-panda-id-au,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-postblue-info,statusnet-postblue-info,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-qdnx-org,statusnet-qdnx-org,,[],False,0,0.0,1,0.44,0,1,0.41,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,0,1,1,0,0.5,2.16
+statusnet-russwurm-org,statusnet-russwurm-org,,[],False,0,0.0,1,0.33,0,1,0.39,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.89
+statusnet-samnoble-org,statusnet-samnoble-org,,[],False,0,0.0,1,0.33,0,1,0.39,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.89
+statusnet-scoffoni-net,statusnet-scoffoni-net,,[],False,0,0.0,1,0.33,0,1,0.39,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.89
+statusnet-shnoulle-net,statusnet-shnoulle-net,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-skilledtests-com,statusnet-skilledtests-com,,[],False,0,0.0,1,0.33,0,1,0.39,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.89
+statusnet-somsants-net,statusnet-somsants-net,,[],False,0,0.0,1,0.33,0,1,0.39,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.89
+statusnet-spip-org,statusnet-spip-org,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-ssweeny-net,statusnet-ssweeny-net,,[],False,0,0.0,1,0.33,0,1,0.39,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.89
+statusnet-thelovebug-org,statusnet-thelovebug-org,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.87
+statusnet-thornton2-com,statusnet-thornton2-com,,[],False,0,0.0,1,0.33,0,1,0.39,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.89
+statusnet-timttmy-co-uk,statusnet-timttmy-co-uk,,[],False,0,0.0,1,0.33,0,1,0.39,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.89
+statusnet-tl1n-com,statusnet-tl1n-com,,[],False,0,0.0,1,0.33,0,1,0.39,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,1.89
+statusnet-tschlotfeldt-de,statusnet-tschlotfeldt-de,,[],False,0,0.0,1,0.33,0,1,0.39,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,0,1,1,0,0.5,2.14
+SudershanTech,SudershanTech,,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,0,0.25,1,1,1,0,0.75,1.87
+vivo,VIVO,,[],False,0,0.0,1,0.56,0,1,0.43,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.43
+vivo-weill-cornell-medical-college,VIVO Weill Cornell Medical College,,[],False,0,0.0,1,0.44,0,1,0.41,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.16
