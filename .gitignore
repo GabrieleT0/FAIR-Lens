@@ -177,3 +177,4 @@ data/quality_data/*
 !data/quality_data/kghb_output
 data/quality_data/kghb_output/*.csv
 !.gitkeep
+.DS_Store
