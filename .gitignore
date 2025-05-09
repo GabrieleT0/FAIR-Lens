@@ -173,5 +173,7 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 .devcontainer
-data/quality_data/all/*
+data/quality_data/*
+!data/quality_data/kghb_output
+data/quality_data/kghb_output/*.csv
 !.gitkeep
