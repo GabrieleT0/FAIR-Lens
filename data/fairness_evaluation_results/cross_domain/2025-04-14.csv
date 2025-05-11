@@ -12,7 +12,7 @@ baixue_imagery1,红色经典歌曲,,[],False,0,0.0,1,0.33,0,1,0.39,0.0,1,0.0,1,0
 bendevoficial,Bendev Junior,,['https://bendevoficial.com/bendev.rdf'],False,0,0.0,1,0.44,0,1,0.41,1.0,1,0.0,1,0.75,1,0,0.0,0,0.25,1,1,1,0,0.75,2.16
 CaLiGraph,CaLiGraph,http://caligraph.org/sparql,[],False,1,0.0,1,0.44,1,1,0.74,0.0,1,0.0,1,0.5,1,0,0.0,0,0.25,1,1,1,0,0.75,2.24
 caligraph,CaLiGraph,http://caligraph.org/sparql,['https://zenodo.org/records/8068322'],False,1,0.0,1,0.67,1,1,0.78,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.78
-data.odw.tw,Open Data Web,http://data.odw.tw/sparql,[],False,0,0.0,1,0.22,0,1,0.37,0.5,1,0.0,1,0.62,1,0,0.0,0,0.25,0,1,1,0,0.5,1.74
+data.odw.tw,Open Data Web,http://data.odw.tw/sparql,[],False,0,0.0,1,0.22,0,1,0.37,0.0,1,0.0,1,0.5,1,0,0.0,0,0.25,0,1,1,0,0.5,1.62
 dbpedia,DBpedia,http://dbpedia.org/sparql,[],False,0,0.989,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.0,1,0.75,1,1,1,1,1.0,3.36
 dbpedia-el,DBpedia in Greek,http://el.dbpedia.org/sparql,[],False,0,0.0,1,0.56,0,1,0.43,0.5,1,0.0,1,0.62,1,0,0.0,1,0.5,1,1,1,0,0.75,2.3
 dbpedia-es,DBpedia in Spanish,http://es.dbpedia.org/sparql,[],False,0,0.0,1,0.67,0,1,0.44,1.0,1,1.0,1,1.0,1,1,0.0,1,0.75,1,1,1,1,1.0,3.19
