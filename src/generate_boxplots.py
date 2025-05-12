@@ -15,7 +15,7 @@ class GenerateBoxplots():
         for topic in kgs_by_topic:
             self.csv_files.append((topic,glob.glob(os.path.join(f'{fariness_evaluation_path}/{topic}/', '*.csv')))) 
     
-    def generate_combined_boxplot(self,output_dir,column_to_plot):
+    def generate_combined_boxplot(self,output_dir,column_to_plot,y_min,y_max):
         fair_scores = []
 
         for label, file in self.csv_files:
@@ -34,11 +34,7 @@ class GenerateBoxplots():
         plt.figure(figsize=(12, 6))
         sns.boxplot(data=combined_df, x='Subclouds', y=f'{column_to_plot}')
         plt.xticks(rotation=45)
-        plt.ylim(0.0,4)
+        plt.ylim(y_min,y_max)
         plt.title(f'{column_to_plot} distribution across subclouds')
         plt.tight_layout()
         plt.savefig(f'{output_dir}/{column_to_plot}')
-
-    
-test = GenerateBoxplots('../data/fairness_evaluation_results')
-test.generate_combined_boxplot('../charts','FAIR score')
