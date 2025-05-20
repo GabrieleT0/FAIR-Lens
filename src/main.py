@@ -1,6 +1,7 @@
 from split_data_by_topic import SplitLODCKGsByTopic
 from evaluate_fairness import EvaluateFAIRness
 from calculate_correlation import CalculateCorrelation
+from generate_boxplots import GenerateBoxplots
 import json
 import glob
 import os
@@ -57,6 +58,26 @@ def calculate_correlation(kgs_by_topic):
                                                                                                         'R1.3-D Data organized in a standardized way','R1.3-M Metadata are described with VoID/DCAT predicates','R score','FAIR score'],
             True)
 
+def generate_boxplots():
+
+    fair_score_boxplot = GenerateBoxplots('../data/fairness_evaluation_results')
+
+    fair_score_boxplot.generate_combined_boxplot('../charts','F score',0,1.01)
+    fair_score_boxplot.generate_combined_boxplot('../charts','A score',0,1.01)
+    fair_score_boxplot.generate_combined_boxplot('../charts','I score',0,1.01)
+    fair_score_boxplot.generate_combined_boxplot('../charts','R score',0,1.01)
+    fair_score_boxplot.generate_combined_boxplot('../charts','FAIR score',0,4)
+
+def generate_boxplots():
+
+    fair_score_boxplot = GenerateBoxplots('../data/fairness_evaluation_results')
+
+    fair_score_boxplot.generate_combined_boxplot('../charts','F score',0,1.01)
+    fair_score_boxplot.generate_combined_boxplot('../charts','A score',0,1.01)
+    fair_score_boxplot.generate_combined_boxplot('../charts','I score',0,1.01)
+    fair_score_boxplot.generate_combined_boxplot('../charts','R score',0,1.01)
+    fair_score_boxplot.generate_combined_boxplot('../charts','FAIR score',0,4)
+
 if __name__ == "__main__":
     with open('../data/kgs_by_topic.json', "r", encoding="utf-8") as f:
         kgs_by_topic = json.load(f)
@@ -65,4 +86,8 @@ if __name__ == "__main__":
     # split_quality_data_by_domain()
     # evaluate_fairness(kgs_by_topic)
     # verify_normal_distribution(kgs_by_topic)
+    split_quality_data_by_domain()
+    evaluate_fairness(kgs_by_topic)
+    generate_boxplots()
+    verify_normal_distribution(kgs_by_topic)
     calculate_correlation(kgs_by_topic)
