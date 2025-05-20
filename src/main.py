@@ -45,23 +45,24 @@ def calculate_correlation(kgs_by_topic):
 
     for topic in kgs_by_topic:
         csv_files = glob.glob(os.path.join(f'../data/fairness_evaluation_results/{topic}/', '*.csv'))
-        correlation = CalculateCorrelation(f'../data/fairness_evaluation_results/{topic}/{os.path.basename(csv_files[0])}',topic) # Only one file we have for now (only one observation)
-        correlation.calculate_spearman_correlation_matrix(
-            ['F1-M Unique and persistent ID','F1-D URIs dereferenceability','F2a-M - Metadata availability via standard primary sources',
-                                                                                                    'F2b-M Metadata availability for all the attributes covered in the FAIR score computation','F3-M Data referrable via a DOI',
-                                                                                                    'F4-M Metadata registered in a searchable engine','F score','A1-D Working access point(s)','A1-M Metadata availability via working primary sources',
-                                                                                                    'A1.2 Authentication & HTTPS support','A2-M Registered in search engines','A score','I1-D Standard & open representation format',
-                                                                                                    'I1-M Metadata are described with VoID/DCAT predicates','I2 Use of FAIR vocabularies','I3-D Degree of connection','I score',
-                                                                                                    'R1.1 Machine- or human-readable license retrievable via any primary source',"R1.2 Publisher information, such as authors, contributors, publishers, and sources",
-                                                                                                    'R1.3-D Data organized in a standardized way','R1.3-M Metadata are described with VoID/DCAT predicates','R score','FAIR score']
-        )
+        for csv_file in csv_files:
+            correlation = CalculateCorrelation(f'../data/fairness_evaluation_results/{topic}/{os.path.basename(csv_file)}',topic,os.path.basename(csv_file).split('.')[0]) # Only one file we have for now (only one observation)
+            correlation.calculate_spearman_correlation_matrix(
+                ['F1-M Unique and persistent ID','F1-D URIs dereferenceability','F2a-M - Metadata availability via standard primary sources',
+                                                                                                        'F2b-M Metadata availability for all the attributes covered in the FAIR score computation','F3-M Data referrable via a DOI',
+                                                                                                        'F4-M Metadata registered in a searchable engine','F score','A1-D Working access point(s)','A1-M Metadata availability via working primary sources',
+                                                                                                        'A1.2 Authentication & HTTPS support','A2-M Registered in search engines','A score','I1-D Standard & open representation format',
+                                                                                                        'I1-M Metadata are described with VoID/DCAT predicates','I2 Use of FAIR vocabularies','I3-D Degree of connection','I score',
+                                                                                                        'R1.1 Machine- or human-readable license retrievable via any primary source',"R1.2 Publisher information, such as authors, contributors, publishers, and sources",
+                                                                                                        'R1.3-D Data organized in a standardized way','R1.3-M Metadata are described with VoID/DCAT predicates','R score','FAIR score'],
+            True)
 
 if __name__ == "__main__":
     with open('../data/kgs_by_topic.json', "r", encoding="utf-8") as f:
         kgs_by_topic = json.load(f)
     kgs_by_topic['all'] = [] # Only useful to evaluate the FAIRness on the entire LOD Cloud, to use it as baseline (no topical distinction)
     
-    split_quality_data_by_domain()
-    evaluate_fairness(kgs_by_topic)
-    verify_normal_distribution(kgs_by_topic)
+    # split_quality_data_by_domain()
+    # evaluate_fairness(kgs_by_topic)
+    # verify_normal_distribution(kgs_by_topic)
     calculate_correlation(kgs_by_topic)
