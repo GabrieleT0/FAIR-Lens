@@ -17,7 +17,7 @@ matplotlib.use('Agg')
 here = os.path.dirname(os.path.abspath(__file__))
 
 class CalculateCorrelation:
-    def __init__(self, file_path, output_file):
+    def __init__(self, file_path, topic, analysis_result_date):
         '''
             Save the path to the file with the KGs quality data.
             
@@ -25,17 +25,22 @@ class CalculateCorrelation:
             :param output_file: name of the file in which to write the results
         '''
         self.analysis_result = file_path
-        self.output_file = os.path.join(here,'../data/correlation_results/' + output_file)
+        os.makedirs(f"../data/correlation_results/{topic}",exist_ok=True)
+        self.output_file = os.path.join(here,f'../data/correlation_results/{topic}/{analysis_result_date}')
 
 
-    def calculate_spearman_correlation_matrix(self,columns_to_use):
+    def calculate_spearman_correlation_matrix(self,columns_to_use, filter_by_ids = False):
         '''
             Generate the Spearman Correlation matrix by using the values in the columns columns_to_use from the CSV file.      
 
             :param columns_to_use: list of strings representing the names of the columns from which to take values to measure correlation.
             :param replace_columns: if True, columns that have a list or a boll value as their value will be transformed into a float
         '''
+        columns_to_use.append('KG id')
         df = pd.read_csv(self.analysis_result,usecols=columns_to_use) 
+
+        if filter_by_ids:
+            df = df[df['KG id'].isin(utils.get_always_observed_ids('../data/quality_data/kghb_output/2024-01-07.csv'))]
 
         # Delete the column to avoid errors
         columns_to_drop = ["KG id","KG name","KG SPARQL endpoint","RDF dump link","Ontology"]

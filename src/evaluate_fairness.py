@@ -22,7 +22,10 @@ class EvaluateFAIRness:
         doi_indication = self.quality_data['KG id'].apply(utils.recover_doi_from_lodcloud)
         dump_indication = self.quality_data["Availability of RDF dump (metadata)"].apply(lambda x: 1 if x in [1,"1"] else 0)
         verifiability_info = self.quality_data.apply(utils.check_publisher_info,axis=1)
-        mediatype_indication = self.quality_data['metadata-media-type'].apply(lambda x: 1 if x not in ('[]','['',]',"['']") else 0)
+        try:
+            mediatype_indication = self.quality_data['metadata-media-type'].apply(lambda x: 1 if x not in ('[]','['',]',"['']") else 0)
+        except:
+            mediatype_indication = self.quality_data['Serialization formats'].apply(lambda x: 1 if x not in ('[]','['',]',"['']") else 0)
 
         license = self.quality_data['License machine redeable (metadata)'].apply(lambda x: 1 if x not in ['-', '',False,'False'] and pd.notna(x) else 0)
         license_query = self.quality_data['License machine redeable (query)'].apply(lambda x: 1 if x not in ['-', '',False,'False','[]'] and pd.notna(x) else 0)
@@ -31,9 +34,9 @@ class EvaluateFAIRness:
         links = self.quality_data.apply(
             lambda row: (
                 1 if (
-                    (row['Degree of connection'] != '-' and pd.notna(row['Degree of connection']) and int(row['Degree of connection']) > 0)
+                    (row['Degree of connection'] != '-' and row['Degree of connection'] != '[]' and pd.notna(row['Degree of connection']) and int(row['Degree of connection']) > 0)
                     or (row['Number of samAs chains'] not in ['-', 0, '0'] and pd.notna(row['Number of samAs chains']) and int(row['Number of samAs chains']) > 0)
-                    or (row['SKOS mapping properties'] not in ['-', 0, '0'] and pd.notna(row['SKOS mapping properties']) and int(row['SKOS mapping properties']) > 0) 
+                    #or (row['SKOS mapping properties'] not in ['-', 0, '0'] and pd.notna(row['SKOS mapping properties']) and int(row['SKOS mapping properties']) > 0) 
                 ) else 0
             ), axis=1
         )
@@ -91,36 +94,64 @@ class EvaluateFAIRness:
         self.fairness_evaluation['R1.2 Publisher information, such as authors, contributors, publishers, and sources'] = self.quality_data.apply(utils.check_publisher_info,axis=1)
         
         # If the media type is is standard and open (SW standard), in this community also this format is common accepted. If not, we have to check if the data are in a standard format only for the community
-        self.fairness_evaluation['R1.3-D Data organized in a standardized way'] = self.quality_data.apply(
-            lambda row: 1 if row['Availability of a common accepted Media Type'] in ['True', True] 
-            else (1 if 'api/sparql' or 'rdf' in row['metadata-media-type'] else row['metadata-media-type']),
-            axis=1
-        )
+        try:
+            self.fairness_evaluation['R1.3-D Data organized in a standardized way'] = self.quality_data.apply(
+                lambda row: 1 if row['Availability of a common accepted Media Type'] in ['True', True] 
+                else (1 if 'api/sparql' or 'rdf' in row['metadata-media-type'] else row['metadata-media-type']),
+                axis=1
+            )
+        except:
+            self.fairness_evaluation['R1.3-D Data organized in a standardized way'] = self.quality_data.apply(
+                lambda row: 1 if 'api/sparql' or 'rdf' in row['Serialization formats'].lower() else 0,
+                axis=1
+            )
+
 
         metadata_in_sparql = self.quality_data['SPARQL endpoint URL'].apply(utils.check_meta_in_sparql)
-        self.fairness_evaluation['R1.3-M Metadata are described with VoID/DCAT predicates'] = (
-            (self.quality_data['metadata-media-type'].str.contains('meta/void', na=False).astype(int) | 
-            (metadata_in_sparql == 1)).astype(int) | 
-            (~self.quality_data['License machine redeable (query)'].isin(['-','',False,'False'])).astype(int)
-        )
+        try:
+            self.fairness_evaluation['R1.3-M Metadata are described with VoID/DCAT predicates'] = (
+                (self.quality_data['metadata-media-type'].str.contains('meta/void', na=False).astype(int) | 
+                (metadata_in_sparql == 1)).astype(int) | 
+                (~self.quality_data['License machine redeable (query)'].isin(['-','',False,'False'])).astype(int)
+            )
+        except:
+            self.fairness_evaluation['R1.3-M Metadata are described with VoID/DCAT predicates'] = (
+                (self.quality_data['Serialization formats'].str.contains('meta/void', na=False).astype(int) | 
+                (metadata_in_sparql == 1)).astype(int) | 
+                (~self.quality_data['License machine redeable (query)'].isin(['-','',False,'False'])).astype(int)
+            )
+
         self.fairness_evaluation["R score"] = (self.fairness_evaluation[["R1.1 Machine- or human-readable license retrievable via any primary source", "R1.2 Publisher information, such as authors, contributors, publishers, and sources", "R1.3-D Data organized in a standardized way", "R1.3-M Metadata are described with VoID/DCAT predicates"]].sum(axis=1) / 4).round(2)
 
         print("Reusability evaluation completed!")
 
     def evaluate_interoperability(self):
-
-        self.fairness_evaluation['I1-D Standard & open representation format'] = self.quality_data.apply(
-            lambda row: 1 if row['Availability of a common accepted Media Type'] in ['True', True] 
-            else (1 if 'api/sparql' or 'rdf' in row['metadata-media-type'].lower() else 0),
-            axis=1
-        )
+        
+        try:
+            self.fairness_evaluation['I1-D Standard & open representation format'] = self.quality_data.apply(
+                lambda row: 1 if row['Availability of a common accepted Media Type'] in ['True', True] 
+                else (1 if 'api/sparql' or 'rdf' in row['metadata-media-type'].lower() else 0),
+                axis=1
+            )
+        except:
+            self.fairness_evaluation['I1-D Standard & open representation format'] = self.quality_data.apply(
+                lambda row: 1 if 'api/sparql' or 'rdf' in row['Serialization formats'].lower() else 0,
+                axis=1
+            )
         
         metadata_in_sparql = self.quality_data['SPARQL endpoint URL'].apply(utils.check_meta_in_sparql)
-        self.fairness_evaluation['I1-M Metadata are described with VoID/DCAT predicates'] = (
-            (self.quality_data['metadata-media-type'].str.contains('meta/void', na=False).astype(int) | 
-            (metadata_in_sparql == 1)).astype(int) | 
-            (~self.quality_data['License machine redeable (query)'].isin(['-','',False,'False'])).astype(int)
-        )
+        try:
+            self.fairness_evaluation['I1-M Metadata are described with VoID/DCAT predicates'] = (
+                (self.quality_data['Serialization formats'].str.contains('meta/void', na=False).astype(int) | 
+                (metadata_in_sparql == 1)).astype(int) | 
+                (~self.quality_data['License machine redeable (query)'].isin(['-','',False,'False'])).astype(int)
+            )
+        except:
+            self.fairness_evaluation['I1-M Metadata are described with VoID/DCAT predicates'] = (
+                (self.quality_data['Serialization formats'].str.contains('meta/void', na=False).astype(int) | 
+                (metadata_in_sparql == 1)).astype(int) | 
+                (~self.quality_data['License machine redeable (query)'].isin(['-','',False,'False'])).astype(int)
+            )
 
         self.fairness_evaluation['I2 Use of FAIR vocabularies'] = (self.quality_data['Vocabularies'].apply(utils.check_if_fair_vocabs)).round(2)
 
@@ -128,9 +159,9 @@ class EvaluateFAIRness:
         self.fairness_evaluation['I3-D Degree of connection'] = self.quality_data.apply(
             lambda row: (
                 1 if (
-                    (row['Degree of connection'] != '-' and pd.notna(row['Degree of connection']) and int(row['Degree of connection']) > 0)
+                    (row['Degree of connection'] != '-' and row['Degree of connection'] != '[]'  and pd.notna(row['Degree of connection']) and int(row['Degree of connection']) > 0)
                     or (row['Number of samAs chains'] not in ['-', 0, '0'] and pd.notna(row['Number of samAs chains']) and int(row['Number of samAs chains']) > 0)
-                    or (row['SKOS mapping properties'] not in ['-', 0, '0'] and pd.notna(row['SKOS mapping properties']) and int(row['SKOS mapping properties']) > 0) 
+                    #or (row['SKOS mapping properties'] not in ['-', 0, '0'] and pd.notna(row['SKOS mapping properties']) and int(row['SKOS mapping properties']) > 0) 
                 ) else 0
             ), axis=1
         )
