@@ -10,8 +10,7 @@ class EvaluateFAIRness:
             
     def evaluate_findability(self):
         
-        doi_indication = self.quality_data['KG id'].apply(utils.recover_doi_from_lodcloud)
-        self.fairness_evaluation["F1-M Unique and persistent ID"] = doi_indication
+        self.fairness_evaluation["F1-M Unique and persistent ID"] = 1 # Data are at least in the LOD Cloud
 
         self.fairness_evaluation["F1-D URIs dereferenceability"] = (pd.to_numeric(self.quality_data['URIs Deferenceability'], errors='coerce').fillna('-'))
         self.fairness_evaluation["F1-D URIs dereferenceability"] = self.fairness_evaluation["F1-D URIs dereferenceability"].apply(lambda x: x if x != '-' else 0)
