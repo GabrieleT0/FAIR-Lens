@@ -97,7 +97,7 @@ def check_meta_in_sparql(endpoint_url):
     }
     """
     sparql.setQuery(query)
-    sparql.setTimeout(300)
+    sparql.setTimeout(5)
     sparql.setReturnFormat(JSON)
     try:
         results = sparql.query().convert()
@@ -164,5 +164,3 @@ def get_always_observed_ids(first_analysis):
             all_ids[kg_id] = True
     print(f"All ids: {len(all_ids)}")
     return list(all_ids.keys())
-
-#get_always_observed_ids('../data/quality_data/all/2024-01-07.csv')
