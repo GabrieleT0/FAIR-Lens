@@ -1,0 +1,73 @@
+KG id,KG name,KG SPARQL endpoint,RDF dump link,Ontology,F1-M Unique and persistent ID,F1-D URIs dereferenceability,F2a-M - Metadata availability via standard primary sources,F2b-M Metadata availability for all the attributes covered in the FAIR score computation,F3-M Data referrable via a DOI,F4-M Metadata registered in a searchable engine,F score,A1-D Working access point(s),A1-M Metadata availability via working primary sources,A1.2 Authentication & HTTPS support,A2-M Registered in search engines,A score,I1-D Standard & open representation format,I1-M Metadata are described with VoID/DCAT predicates,I2 Use of FAIR vocabularies,I3-D Degree of connection,I score,R1.1 Machine- or human-readable license retrievable via any primary source,"R1.2 Publisher information, such as authors, contributors, publishers, and sources",R1.3-D Data organized in a standardized way,R1.3-M Metadata are described with VoID/DCAT predicates,R score,FAIR score
+ABC,Test,,[],False,1,0.0,1,0.44,0,1,0.57,0,1,0.0,1,0.5,1,0,0.0,0,0.25,1,1,1,0,0.75,2.07
+aegp-spanish-textile-and-clothing-association,"AEGP, Spanish Textile and Clothing Association",,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+apache,apache,,[],False,1,0.0,1,0.44,0,1,0.57,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.32
+artenuevosmedios-gnoss,Entornos interactivos. Arte en los nuevos medios (GNOSS),,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+arthroscopy,Arthroscopy community,,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+ASCDC-AS-NTUE-School-Art-Textbooks,Archive of the Art Textbooks of Elementary and Public Schools in the Japanese Colonial Period (AS-NTUE-School-Art-Textbooks),,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+ASCDC-DQOT,Database of Qing Official Titles (DQOT),,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+ASCDC-IHP-WCD,Database of the Han Wooden Slips Character Dictionary (WCD),,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+ASCDC-Linked-Taiwan-Artists,Linked Taiwan Artists (LTA),,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+athelia-rfid,"Athelia RFID, a global knowledge network of RFID technology",,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+biblioteca-escolar-digital-cita,Biblioteca Escolar Digital CITA,,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+ce4r,CE4R Knowledge Centre Corporate Excellence – Centre for Reputation Leadership,,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+dbacademic,dbacademic,http://sparql.dbacademic.tech/ds/sparql,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,0,0.25,1,1,1,0,0.75,2.09
+dblp-deusto-gnoss,DBLP Research Groups (University of Deusto-GNOSS),,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+deustoentrepreneurship,Deusto Entrepreneurship: sharing business knowledge,,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+deustotech,DeustoTech (Deusto Institute of Technology),,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+didactalia,"Didactalia, índice de recursos educativos para profesores, padres y alumnos (GNOSS)",,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+E1,E1 - Nuvem dados,,[],False,1,0.0,1,0.44,0,1,0.57,0,1,0.0,1,0.5,1,0,0.0,0,0.25,1,1,1,0,0.75,2.07
+elviajero,El Viajero's tourism dataset,http://webenemasuno.linkeddata.es/sparql,[],False,1,0.9718,1,0.56,0,1,0.76,1,1,1.0,1,1.0,1,0,0.0,1,0.5,1,1,1,0,0.75,3.01
+english-heritage-periods-list,English Heritage Periods List,http://heritagedata.org/live/sparql,[],False,1,0.0,1,0.56,0,1,0.59,1,1,1.0,1,1.0,1,0,0.0,1,0.5,1,1,1,0,0.75,2.84
+esislearning,Dataset Esis,,['http://www.esisalama.org'],False,1,0.0,1,0.56,0,1,0.59,1,1,0.0,1,0.75,1,0,0.0,0,0.25,1,1,1,0,0.75,2.34
+flickr-wrappr,flickr? wrappr,,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+garnicaplywood,Garnica Plywood Catalogue,,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+gnoss-com-a-social-and-semantic-platform,"GNOSS.com, a Social and Semantic Platform",,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+greekchildrensartmuseum,Greek Children Art  Museum dataset,http://ct-linkdata.aegean.gr/gcam/sparql,"['https://www.childrensartmuseum.gr/LD-project/example.ttl', 'https://www.childrensartmuseum.gr/LD-project/children_artworks.ttl', 'https://www.childrensartmuseum.gr/LD-project/children_artworks.rdf']",False,1,0.0,1,0.89,1,1,0.82,1,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.82
+green-competitiveness-gnoss,Green Competitiveness (GNOSS),,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+ichoose,ichoose,http://ichoose.tw.rpi.edu/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0,1,0.0,1,0.5,1,1,0.0,1,0.75,1,1,1,1,1.0,2.86
+ineverycrea,"IneveryCREA, la comunidad de la creatividad educativa",,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+ineverycrea-argentina,"IneveryCREA Argentina, la comunidad de la creatividad educativa",,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+interactivemaps-gnoss,"Interactive Maps, a collection of interactive flash maps (GNOSS)",,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+john-goodwins-family-tree,John Goodwin's Family Tree,http://api.talis.com/stores/jgoodwin-genealogy/services/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+klappstuhlclub,Klappstuhlclub,,['http://klappstuhlclub.de/wp/wp-content/plugins/RDF2WP/Output/EntireBlogExporter.php?format=text/plain'],False,1,0.0,1,0.67,0,1,0.61,1,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.61
+linkedmarkmail,LinkedMarkMail,,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+lotico,Lotico,,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+miguiadeviajes-gnoss,"Mi Guía de Viajes, colección de guías de viaje para viajeros (GNOSS)",,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+museosespania-gnoss,"Museos de España, colección de museos públicos y privados españoles (GNOSS)",,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+my-experiment,myExperiment,http://rdf.myexperiment.org/sparql/,[],False,1,0.0,1,0.67,0,1,0.61,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+my-family-lineage,My Family Lineage,http://futurewavehosting.com:3030/my-family-lineage/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+myopenlink-dataspaces,myopenlink dataspaces,,[],False,1,0.0,1,0.33,0,1,0.56,0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,2.06
+newborn-photography-maternity-photoshoot-shivani-goyal,Shivani Goyal Photography,,['https://shivanigoyalphotography.com/rdf/'],False,1,0.0,1,0.67,0,1,0.61,1,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.61
+open-data-risp,"Open Data RISP, the Spanish Open Data community",,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+openlinksw-dataspaces,openlinksw dataspaces,,[],False,1,0.0,1,0.33,0,1,0.56,0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,2.06
+PersonOnto,Ontology of University People,,[],False,1,0.0,1,0.44,0,1,0.57,0,1,0.0,1,0.5,1,0,0.0,0,0.25,1,1,1,0,0.75,2.07
+prefix-cc,prefix.cc,,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+prospects-and-trends-gnoss,Prospects and Trends (GNOSS),,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+proyectoapadrina,"Proyecto Apadrina,  Marketing Punto de Venta",,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+Rb_PL_LGU,Polish LGU financial statements,http://185.94.71.25:62020/snorql/,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,0,0.25,1,1,1,0,0.75,2.09
+rdfohloh,RDFohloh,,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+red-uno-internacional-santillana,Red Uno Internacional (Santillana),,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+revyu,Revyu.com - Review Anything,http://revyu.com/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+rgsdfg,sdafsadf,http://mtimo.de/234,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,0,0.25,1,1,1,0,0.75,2.09
+ROSHANI,ontology terrorist attack,,[],False,1,0.0,1,0.44,0,1,0.57,0,1,0.0,1,0.5,1,0,0.0,0,0.25,1,1,1,0,0.75,2.07
+SDG,A Knowledge Organization System for the United Nations Sustainable Development Goals,,['https://github.com/UNStats/LOD4Stats/blob/master/sdg-data/sdg-ontology-with-taxonomy.ttl'],False,1,0.0,1,0.67,1,1,0.78,1,1,0.0,1,0.75,1,0,0.0,0,0.25,1,1,1,0,0.75,2.53
+semanlink,semanlink,,[],False,1,0.0,1,0.33,0,1,0.56,0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,2.06
+semantictweet,SemanticTweet,,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+semanticweb-org,semanticweb.org,,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+seoul-bike-data,seoul-bike-data,http://13.125.246.132/sparql,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,0,0.25,1,1,1,0,0.75,2.09
+Swift,Swift Vocabulary,https://alma.uni.lu/sparql,"['https://alma.uni.lu/ontology/swift/5.2/swift.rdf', 'https://alma.uni.lu/ontology/swift/5.2/swift.ttl']",False,1,0.2690355329949238,1,0.67,0,1,0.66,1,1,1.0,1,1.0,1,1,0.0,1,0.75,1,1,1,1,1.0,3.41
+tags2con-delicious,tags2con delicious,,[],False,1,0.0,1,0.67,0,1,0.61,0,1,0.0,1,0.5,1,1,0.11,1,0.78,1,1,1,1,1.0,2.89
+Test,Test,,[],False,1,0.0,1,0.44,0,1,0.57,0,1,0.0,1,0.5,1,0,0.0,0,0.25,1,1,1,0,0.75,2.07
+test,test,,[],False,1,0.0,1,0.33,0,1,0.56,0,1,0.0,1,0.5,1,0,0.0,0,0.25,1,1,1,0,0.75,2.06
+Test,Test,,[],False,1,0.0,1,0.22,0,1,0.54,0,1,0.0,1,0.5,1,0,0.0,0,0.25,0,1,1,0,0.5,1.79
+the-living-lod-cloud,The Living LOD Cloud,,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,1,0.0,1,0.75,1,1,1,1,1.0,2.84
+twarql,Twarql,http://twarql.org:8890/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+typepad,typepad,,[],False,1,0.0,1,0.33,0,1,0.56,0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,2.06
+universidad-de-cuenca-linkeddata,Universidad de Cuenca - LinkedData,http://190.15.141.102:8890/sparql,[],False,1,0.0,1,0.44,0,1,0.57,1,1,1.0,1,1.0,1,1,0.0,1,0.75,1,1,1,1,1.0,3.32
+utpl-lod,Universidad Técnica Particular de Loja - Linked Open Data,http://data.utpl.edu.ec/utpl/lod/sparql,[],False,1,0.0,1,0.56,0,1,0.59,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+varsha,terrorist attack,,['https://digitalrepository.unm.edu/cgi/viewcontent.cgi?referer=https://www.google.com/&httpsredir=1&article=1040&context=ece_rpts'],False,1,0.0,1,0.56,0,1,0.59,1,1,0.0,1,0.75,1,0,0.0,0,0.25,1,1,1,0,0.75,2.34
+Vyvasta,Statybu imone - Vyvasta,,[],False,1,0.0,1,0.44,0,1,0.57,0,1,0.0,1,0.5,1,0,0.0,0,0.25,1,1,1,0,0.75,2.07
+wikidata,Wikidata,https://query.wikidata.org/sparql,"['https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.ttl.bz2', 'https://dumps.wikimedia.org/wikidatawiki/entities/latest-all.ttl.gz', 'https://dumps.wikimedia.org/wikidatawiki/entities/latest-truthy.nt.bz2', 'https://dumps.wikimedia.org/wikidatawiki/entities/latest-truthy.nt.gz']",False,1,0.0,1,0.56,0,1,0.59,1,1,1.0,1,1.0,1,1,0.0,1,0.75,1,1,1,1,1.0,3.34
+wordpress,wordpress,,[],False,1,0.0,1,0.33,0,1,0.56,0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,2.06
+yovisto,Yovisto - academic video search,http://sparql.yovisto.com/,[],False,1,0.0,1,0.67,0,1,0.61,0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36

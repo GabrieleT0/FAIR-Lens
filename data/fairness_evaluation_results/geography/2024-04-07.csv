@@ -1,0 +1,43 @@
+KG id,KG name,KG SPARQL endpoint,RDF dump link,Ontology,F1-M Unique and persistent ID,F1-D URIs dereferenceability,F2a-M - Metadata availability via standard primary sources,F2b-M Metadata availability for all the attributes covered in the FAIR score computation,F3-M Data referrable via a DOI,F4-M Metadata registered in a searchable engine,F score,A1-D Working access point(s),A1-M Metadata availability via working primary sources,A1.2 Authentication & HTTPS support,A2-M Registered in search engines,A score,I1-D Standard & open representation format,I1-M Metadata are described with VoID/DCAT predicates,I2 Use of FAIR vocabularies,I3-D Degree of connection,I score,R1.1 Machine- or human-readable license retrievable via any primary source,"R1.2 Publisher information, such as authors, contributors, publishers, and sources",R1.3-D Data organized in a standardized way,R1.3-M Metadata are described with VoID/DCAT predicates,R score,FAIR score
+bag,Basisregistratie Adressen en Gebouwen,https://data.pdok.nl/sparql,[],False,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,2.09
+country-authority-list,Country Name Authority List,http://publications.europa.eu/webapi/rdf/sparql,['https://op.europa.eu/en/web/eu-vocabularies/dataset/-/resource?uri=http://publications.europa.eu/resource/dataset/country'],False,1,0.0,1,0.78,0,1,0.63,1.0,1,1.0,1,1.0,1,1,0.0,1,0.75,1,1,1,1,1.0,3.38
+czech_addresses,Czech addresses – Adresy v České republice,,[],False,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+Earthquake,Emergency situation,https://www.orpha.net/sparql,['https://raw.githubusercontent.com/sonia04021991/Ontology/main/eso.rdf'],False,1,0.0,1,0.78,0,1,0.63,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.63
+eea-vocabularies,EEA Vocabularies,http://cr.eionet.europa.eu/sparql,[],False,1,0.0,1,0.56,0,1,0.59,0.5,1,0.0,1,0.62,1,0,0.0,1,0.5,1,1,1,0,0.75,2.46
+environmental-applications-reference-thesaurus,EARTh,http://linkeddata.ge.imati.cnr.it:8890/sparql,[],False,1,0.0,1,0.78,0,1,0.63,0.0,1,0.0,1,0.5,1,1,1.0,1,1.0,1,1,1,1,1.0,3.13
+fao-geopolitical-ontology,FAO geopolitical ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+fishes-of-texas,Fishes of Texas,,[],False,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+geolinkeddata,GeoLinkedData,http://geo.linkeddata.es/sparql,[],False,1,0.0,1,0.56,0,1,0.59,1.0,1,1.0,1,1.0,1,0,0.0,1,0.5,1,1,1,0,0.75,2.84
+geological-survey-of-austria-thesaurus,Geological Survey of Austria (GBA) - Thesaurus,http://resource.geolba.ac.at/PoolParty/sparql/GeologicUnit,[],False,1,1.0,1,0.67,0,1,0.78,1.0,1,1.0,1,1.0,1,1,1.0,1,1.0,1,1,1,1,1.0,3.78
+geonames-semantic-web,GeoNames Semantic Web,,[],False,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+geowordnet,GeoWordNet,,[],False,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+getty-tgn,The Getty Thesaurus of Geographic Names,http://vocab.getty.edu/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.5,1,0.0,1,0.62,1,0,0.0,1,0.5,1,1,1,0,0.75,2.48
+greek-administrative-geography,greek-administrative-geography,,[],False,1,0.0,1,0.33,0,1,0.56,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,2.06
+grrp,Accommodations in Piedmont (LinkedOpenData.it),http://sparql.linkedopendata.it/grrp,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+grrt,Accommodations in Tuscany (LinkedOpenData.it),http://sparql.linkedopendata.it/grrt,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+GTS,Geological Timescale,http://vocabs.ardc.edu.au/repository/api/sparql/csiro_international-chronostratigraphic-chart_geologic-time-scale-2020,"['https://vocabs.ardc.edu.au/registry/api/resource/downloads/1211/isc2020.ttl', 'https://vocabs.ardc.edu.au/registry/api/resource/downloads/1213/csiro_international-chronostratigraphic-chart_geologic-time-scale-2020.jsonld']",False,1,1.0,1,1.0,1,1,1.0,1.0,1,1.0,1,1.0,1,1,0.0,1,0.75,1,1,1,1,1.0,3.75
+GTS-ont,Geological Timescale Ontology,,['https://raw.githack.com/CGI-IUGS/timescale-ont/master/rdf/gts.ttl'],True,1,0.0,1,0.78,1,1,0.8,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.8
+knoesis-linked-sensor-data,Linked Sensor Data (Kno.e.sis),http://sonicbanana.cs.wright.edu:8890/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+linked-logainm,Linked Logainm,http://data.logainm.ie/sparql,[],False,1,0.5059011802360472,1,0.44,0,1,0.66,1.0,1,1.0,1,1.0,1,0,0.0,1,0.5,1,1,1,0,0.75,2.91
+linkedcrowdsourceddata,Linked Crowdsourced Data,http://sparql.contextdatacloud.org,[],False,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+linkedgeodata,LinkedGeoData,http://linkedgeodata.org/sparql/,[],False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.13,1,0.78,1,1,1,1,1.0,3.39
+lobid-organisations,lobid-organisations,http://lobid.org/sparql/,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+los_metar,Weather Stations,,[],False,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+near,Near,,['http://archive.org/download/kasabi/near.gz'],False,1,0.0,1,0.67,0,1,0.61,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.61
+norwegian-geo-divisions,Norwegian geo-divisions,http://data.lenka.no/sparql,"['http://data.lenka.no/dumps/fylke-geonames.ttl', 'http://data.lenka.no/dumps/kommune-navn.ttl', 'http://data.lenka.no/dumps/kommunesentre-geonames.ttl']",False,1,0.0,1,0.78,0,1,0.63,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.63
+nuts-geovocab,NUTS (GeoVocab),,[],False,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+oceandrilling-borehole,oceandrilling-borehole,,[],False,1,0.0,1,0.33,0,1,0.56,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,2.06
+oceandrilling-codices,Ocean Drilling - Codices,http://data.oceandrilling.org/sparql,['http://data.oceandrilling.org/models/codices.ttl'],False,1,0.0,1,0.78,0,1,0.63,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.63
+oceandrilling-forams,Ocean Drilling - Forams,http://data.oceandrilling.org/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.5,1,0.0,1,0.62,1,0,0.0,1,0.5,1,1,1,0,0.75,2.48
+OLU,Open Land Use,,[],False,1,0.0,1,0.22,0,1,0.54,0.0,1,0.0,1,0.5,1,0,0.0,0,0.25,0,1,1,0,0.5,1.79
+openmobilenetwork,OpenMobileNetwork,http://sparql.openmobilenetwork.org,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+ordnance-survey-linked-data,Ordnance Survey Linked Data,http://api.talis.com/stores/ordnance-survey/services/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+osm-semantic-network,OSM Semantic Network,http://spatial.ucd.ie/lod/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+OTM,Open Transport Map,https://www.foodie-cloud.org/sparql,[],False,1,0.2,1,0.67,0,1,0.64,1.0,1,1.0,1,1.0,1,1,0.0,1,0.75,1,1,1,1,1.0,3.39
+pleiades,Pleiades,,['http://atlantides.org/downloads/pleiades/rdf/pleiades-latest.tar.gz'],False,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+telegraphis,Telegraphis Linked Data,http://telegraphis.net/data/countries/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+the-view-from,The View From,http://api.talis.com/stores/theviewfrom/services/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+thist,ThIST,http://linkeddata.ge.imati.cnr.it:8890/sparql,[],False,1,0.0,1,0.78,0,1,0.63,0.0,1,0.0,1,0.5,1,1,1.0,1,1.0,1,1,1,1,1.0,3.13
+uk-postcodes,UK Postcodes,,[],False,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+xx,xxx,,[],False,1,0.0,1,0.44,0,1,0.57,0.0,1,0.0,1,0.5,1,0,0.0,0,0.25,1,1,1,0,0.75,2.07
+yahoo_geoplanet,Yahoo Geoplanet RDF,http://api.kasabi.com/dataset/yahoo-geoplanet/apis/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.5,1,0.0,1,0.62,1,0,0.0,1,0.5,1,1,1,0,0.75,2.48

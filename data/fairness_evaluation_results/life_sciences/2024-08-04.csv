@@ -1,0 +1,348 @@
+KG id,KG name,KG SPARQL endpoint,RDF dump link,Ontology,F1-M Unique and persistent ID,F1-D URIs dereferenceability,F2a-M - Metadata availability via standard primary sources,F2b-M Metadata availability for all the attributes covered in the FAIR score computation,F3-M Data referrable via a DOI,F4-M Metadata registered in a searchable engine,F score,A1-D Working access point(s),A1-M Metadata availability via working primary sources,A1.2 Authentication & HTTPS support,A2-M Registered in search engines,A score,I1-D Standard & open representation format,I1-M Metadata are described with VoID/DCAT predicates,I2 Use of FAIR vocabularies,I3-D Degree of connection,I score,R1.1 Machine- or human-readable license retrievable via any primary source,"R1.2 Publisher information, such as authors, contributors, publishers, and sources",R1.3-D Data organized in a standardized way,R1.3-M Metadata are described with VoID/DCAT predicates,R score,FAIR score
+addgene,Addgene,,[],False,1,0.0,1,0.44,0,1,0.57,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,2.07
+agrovoc,AGROVOC,https://agrovoc.fao.org/sparql,"['https://agrovoc.fao.org/latestAgrovoc/agrovoc_core.nt.zip', 'https://agrovoc.fao.org/latestAgrovoc/agrovoc_lod.nt.zip', 'https://agrovoc.fao.org/latestAgrovoc/agrovoc_core.rdf.zip', 'https://agrovoc.fao.org/latestAgrovoc/agrovoc_lod.nq.zip']",False,1,0.7,1,0.67,0,1,0.73,1.0,1,1.0,1,1.0,1,1,0.0,1,0.75,1,1,1,1,1.0,3.48
+allie-abbreviation-and-long-form-database-in-life-science,Allie Abbreviation And Long Form Database in Life Science,http://data.allie.dbcls.jp/sparql,[],False,1,0.99,1,0.78,0,1,0.8,1.0,1,1.0,1,1.0,1,1,0.5,1,0.88,1,1,1,1,1.0,3.68
+arrayexpress_e-mtab-104,Transcription profiling of rat bladder after inoculation with bladder cancer cells,http://purl.org/twc/arrayexpress/virtuoso/sparql,[],False,1,0.0,1,0.44,0,1,0.57,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,2.07
+ASCDC-AS-TFD-Fish-Species,Taiwan Fauna Database Research: Taiwan Digital Fish Species Database (AS-TFD-Fish-Species),,[],False,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+ASCDC-NMMBA-Aquatic-Animals-in-Taiwan,Research on the Aquatic Animals in Taiwan and its Neighborhood Area (NMMBA-Aquatic-Animals-in-Taiwan),,[],False,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+ASCDC-NMMBA-Fish-Otoliths,The Digital Collection of Taiwan's Fish Otoliths (NMMBA-Fish-Otoliths),,[],False,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bio2rdf-affymetrix,Bio2RDF::Affymetrix,http://affymetrix.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-biomodels,Bio2RDF::Biomodels,http://biomodels.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-bioportal,Bio2RDF::Bioportal,http://bioportal.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-chembl,Bio2RDF::Chembl,http://chembl.bio2rdf.org/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+bio2rdf-clinicaltrials,Bio2RDF::Clinicaltrials,http://clinicaltrials.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-ctd,Bio2RDF::Ctd,http://ctd.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-dbsnp,Bio2RDF::Dbsnp,http://dbsnp.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-drugbank,Bio2RDF::Drugbank,http://drugbank.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-genage,Bio2RDF::Genage,http://genage.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-gendr,Bio2RDF::Gendr,http://gendr.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-goa,Bio2RDF::Goa,http://goa.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-hgnc,Bio2RDF::Hgnc,http://hgnc.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-homologene,Bio2RDF::Homologene,http://homologene.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-interpro,Bio2RDF::Interpro,http://interpro.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-iproclass,Bio2RDF::Iproclass,http://iproclass.bio2rdf.org/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+bio2rdf-irefindex,Bio2RDF::Irefindex,http://irefindex.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-lsr,Bio2RDF::Lsr,http://lsr.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-mesh,Bio2RDF::Mesh,http://mesh.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-mgi,Bio2RDF::Mgi,http://mgi.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-ncbigene,Bio2RDF::Ncbigene,http://ncbigene.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-ndc,Bio2RDF::Ndc,http://ndc.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-omim,Bio2RDF::Omim,http://omim.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-orphanet,Bio2RDF::Orphanet,http://orphanet.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-pharmgkb,Bio2RDF::Pharmgkb,http://pharmgkb.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-pubmed,Bio2RDF::Pubmed,http://pubmed.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-sabiork,Bio2RDF::Sabiork,http://sabiork.bio2rdf.org/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+bio2rdf-sgd,Bio2RDF::Sgd,http://sgd.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-sider,Bio2RDF::Sider,http://sider.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-taxonomy,Bio2RDF::Taxonomy,http://taxonomy.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+bio2rdf-wormbase,Bio2RDF::Wormbase,http://wormbase.bio2rdf.org/sparql,"['http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.uniprot.org/docs/humsavar.txt']",False,1,0.0,1,0.67,0,1,0.61,1.0,1,1.0,1,1.0,1,1,0.32,1,0.83,1,1,1,1,1.0,3.44
+biolod-pdb,BioLOD for Protein Data Bank Japan,,[],False,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+biomodels-rdf,BioModels RDF,https://www.ebi.ac.uk/rdf/services/biomodels/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+bioportal-aao,Amphibian gross anatomy,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-aba,ABA Adult Mouse Brain,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-acgt,Cancer Research and Management ACGT Master Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-adw,Animal natural history and life history,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-aeo,Anatomical Entity Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-aero,Adverse Event Reporting ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-air,AI/RHEUM,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-amino-acid,Amino Acid,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-apo,Ascomycete phenotype ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-atmo,African Traditional Medicine,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ato,Amphibian taxonomy,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-bao,BioAssay Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-basic-vertebrate-gross-anatomy,Basic Vertebrate Anatomy,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-bcgo,Breast Cancer Grading Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-bdo,Bone Dysplasia Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-bfo,Basic Formal Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-bho,Bleeding History Phenotype,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-bila,Bilateria anatomy,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-birnlex,BIRNLex,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-bootstrep,Gene Regulation Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-bp,BioPAX,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-bro_x1,Biomedical Resource Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-bspo,Spatial Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-bt,BioTop,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-bto,BRENDA tissue / enzyme source,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-canco,Cancer Chemoprevention Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-cao,CAO,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-carelex,CareLex,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-cco,Cell Cycle Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-cdao,Comparative Data Analysis Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-chebi,Chemical entities of biological interest,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-chem2bio2owl,Systems Chemical Biology/Chemogenomics,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-cheminf,Chemical Information Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-cl,Cell type,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-clo,Cell Line Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-cmo,Clinical Measurement Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-cno,Computational Neuroscience Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-co_wheat,Wheat trait,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-cogat,Cognitive Atlas,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-cogpo,Cognitive Paradigm Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-cpt,Current Procedural Terminology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-csp,"CRISP Thesaurus, 2006",,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-cst,COSTART,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ctcae,Common Terminology Criteria for Adverse Events,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ctx,Cerebrotendinous xanthomatosis,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-dc_cl,Dendritic cell,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ddanat,Dictyostelium discoideum anatomy,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ddi,Ontology for Drug Discovery Investigations,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-diagnosticont,Diagnostic Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-dikb-evidence,DIKB-Evidence-Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-doid,Human disease ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ecg,Electrocardiography Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-efo,Experimental Factor Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ehda,"Human developmental anatomy, timed version",,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ehdaa,"Human developmental anatomy, abstract version",,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ehdaa2,"Human developmental anatomy, abstract version, v2",,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-envo,Environment Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-eo,Plant environmental conditions,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ep,Cardiac Electrophysiology Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-epileponto,Epilepsy,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ero,eagle-i research resource ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ev,eVOC (Expressed Sequence Annotation for Humans),,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-exo,ExO,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-fao,Fungal gross anatomy,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-fbbi,Biological imaging methods,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-fbbt,Drosophila gross anatomy,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-fbcv,FlyBase Controlled Vocabulary,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-fbdv,Drosophila development,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-fbsp,Fly taxonomy,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-fda-meddevice,FDA Medical Devices (2010),,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-fhho,Family Health History Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-flu,Influenza Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-fma,Foundational Model of Anatomy,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-fypo,Fission Yeast Phenotype Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-geospecies,GeoSpecies Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-gfo,General Formal Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-gfo-bio,General Formal Ontology: Biology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-go_x1,Gene Ontology Extension,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-go_x2,Gene Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-gro_x1,Cereal plant gross anatomy,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-gro_x2,Gene Regulation Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-hao,Hymenoptera Anatomy Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-hcpcs,HCPCS,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-hl7,Health Level Seven,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-hlth_indics,HEALTH_INDICATORS,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-hp_x1,Human Phenotype Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-hpio,Host Pathogen Interactions Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-hugo,HUGO,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-iao,Information Artifact Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-icd10,ICD10,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-icd10cm,ICD10CM,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-icd10pcs,ICD-10-PCS,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-icd9cm,International Classification of Diseases,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-icf_x1,"International Classification of Functioning, Disability and Health (ICF)",,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-icnp,International Classification for Nursing Practice,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-icpc,International Classification of Primary Care,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-icpc2p,ICPC-2 PLUS,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-icps,ICPS Network,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ido,Infectious Disease Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-idobru,Brucellosis Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-idomal,Malaria Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-iev,Event (INOH pathway ontology),,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-imgt,IMGT-ONTOLOGY,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-imr,Molecule role (INOH Protein name/family name ontology),,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ino,Interaction Network Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ixno,IxnO,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-jerm,SysMO-JERM,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-lhn,Loggerhead nesting,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-lipro,Lipid Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-lnc,Logical Observation Identifier Names and Codes,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ma,Mouse adult gross anatomy,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mao,Multiple alignment,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mat,Minimal anatomical terminology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mcbcc,Breast tissue cell lines,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mccl,Cell line ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mccl_x1,Cell line ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mcv,MIxS Controlled Vocabularies,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mddb,Master Drug Data Base,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mdr,MedDRA,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-medlineplus,MedlinePlus Health Topics,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mego,MeGO,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mesh-owl,MESH Thesaurus (OWL version),,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mf,Mental Functioning Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mfo,Medaka fish anatomy and development,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mfoem,Emotion Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mhc,MaHCO - An MHC Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mi,Protein-protein interaction,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-miro,Mosquito insecticide resistance,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mmo,Measurement Method Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mo,MGED Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mod,Protein modification,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mp,Mammalian phenotype,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mpath,Mouse pathology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ms,Mass spectrometry,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-msh,Medical Subject Headings,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-mthch,Metathesaurus CPT Hierarchical Terms,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-natpro,Natural Products Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ncbitaxon,NCBI organismal classification,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ncit,NCI Thesaurus,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-nddf,National Drug Data File,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ndfrt,National Drug File,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-nemo_x1,Neural ElectroMagnetic Ontologies,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-neomark,Neomark Oral Cancer Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-neomarkontology,Neomark Oral Cancer-Centred Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-nif,NIFSTD,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-nif_cell,NIF Cell,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-nif_dysfunction,NIF Dysfunction,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-nigo,Neural-Immune Gene Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-nmr,NMR-instrument specific component of metabolomics investigations,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-nonrctontology,Non Randomized Controlled Trials Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-npo,NanoParticle Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-oae,Ontology of Adverse Events (OAE),,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-obi,Ontology for Biomedical Investigations,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-oboe,OBOE,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-oboe-sbc,OBOE SBC,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ocre,Ontology of Clinical Research (OCRe),,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-odgi,Ontology for disease genetic investigation,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ogi,Ontology for Genetic Interval,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ogmd,Ontology of Glucose Metabolism Disorder,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ogms,Ontology for General Medical Science,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-omim,Online Mendelian Inheritance in Man,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-omit,Ontology for MicroRNA Target Prediction,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-omrse,Ontology of Medically Related Social Entities,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ontodm,Ontology of Data Mining,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ontodt,Ontology of General Purpose Datatypes,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ontoorpha,Orphanet Ontology of Rare Diseases,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-opl,Ontology for Parasite LifeCycle,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-pato,Phenotypic quality,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-pdq,Physician Data Query,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-pedterm,Pediatric Terminology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-peo,Parasite Experiment Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-phare,PHARE,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-pko,PKO_Re,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-pma,PMA 2010,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-pmr,Physical Medicine and Rehabilitation,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-po,Plant Anatomy,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-po_x1,Plant Growth and Development Stage,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-po_x2,Plant Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-pr,PRotein Ontology (PRO),,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-propreo,Proteomics data and process provenance,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-pw,Pathway ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-rcd,"Read Codes, Clinical Terms Version 3 (CTV3)",,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-rctontology,Randomized Controlled Trials (RCT) Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-repo,Reproductive trait and phenotype ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-rex,Physico-chemical process,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-rid,RadLex,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-rnao,RNA ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-roleo,Role Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-rs,Rat Strain Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-rxnorm,RxNORM,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-sao,Subcellular Anatomy Ontology (SAO),,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-sbo,Systems Biology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-sbro,Smoking Behavior Risk Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-sdo,Sleep Domain Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-sep,Sample processing and separation techniques,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-shr,Student Health Record,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-sio,SemanticScience Integrated Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-sitbac,Situation-Based Access Control,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-snomedct,SNOMED Clinical Terms,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-snpo,SNP-Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-so_x1,Sequence types and features,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-sopharm,Suggested Ontology for Pharmacogenomics,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-soy,SoyOntology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-spd,Spider Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-spto,Solanaceae Phenotype Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-sso,Syndromic Surveillance Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-swo,Software Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-tads,Tick gross anatomy,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-tao,Teleost Anatomy Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-taxrank,Taxonomic rank vocabulary,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-teddy,Terminology for the Description of Dynamics,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-teo,Time Event Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-tgma,Mosquito gross anatomy,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-thesaurus,thesaurus,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-tm-signs-and-sympts,Traditional Medicine Signs and Symptoms Value Set,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-tmo,Translational Medicine Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-to,Plant Trait Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-tok,TOK_Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-tto,Teleost taxonomy,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-uberon,Uber anatomy ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-unitsontology,Units Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-uo,Units of measurement,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-vandf,VANDF,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-vao,Vertebrate Anatomy Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-vhog,vertebrate Homologous Organ Groups,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-vivo,VIVO,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-vo,Vaccine Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-vt,Vertebrate Trait Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-wbbt,C. elegans gross anatomy,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-wbls,C. elegans development,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-wbphenotype,C. elegans phenotype,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-who,WHO Adverse Reaction Terminology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-xao,Xenopus anatomy and development,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-xco,Experimental Conditions Ontology,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-ypo,Yeast phenotypes,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+bioportal-zfa,Zebrafish anatomy and development,,[],True,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+biosamples-rdf,BioSamples RDF,https://www.ebi.ac.uk/rdf/services/biosamples/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+chem2bio2rdf,Chem2Bio2RDF,,['http://chem2bio2rdf.org/download'],False,1,0.0,1,0.67,0,1,0.61,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.61
+chembl-rdf,ChEMBL RDF,https://www.ebi.ac.uk/rdf/services/chembl/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+ckan,Comprehensive Knowledge Archive Network,http://semantic.ckan.net/sparql/,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+CoDa,Cooperation Databank,https://api.cooperationdatabank.org/datasets/coda/databank/services/databank/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+Covid-on-the-Web,Covid-on-the-Web Dataset,https://covidontheweb.inria.fr/sparql,"['https://doi.org/10.5281/zenodo.4247134', 'https://doi.org/10.5281/zenodo.5603369']",False,1,0.9936,1,0.89,1,1,0.98,1.0,1,1.0,1,1.0,1,1,0.53,1,0.88,1,1,1,1,1.0,3.86
+cz-eh-1-atc,ATC groups,http://linked.opendata.cz/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+cz-sidc-drug-ingredients,Active ingredients of medicinal products available in Czech Republic,http://linked.opendata.cz/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+cz-sidc-drugs,Medicinal products marketed in Czech Republic,http://linked.opendata.cz/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+disgenet,DisGeNET,http://rdf.disgenet.org/sparql/,[],False,1,0.0,1,0.56,0,1,0.59,0.5,1,0.0,1,0.62,1,0,0.0,1,0.5,1,1,1,0,0.75,2.46
+eagle-i-alaska,eagle-i @ University of Alaska Fairbanks,http://alaska.eagle-i.net/sparqler/sparql,"['http://alaska.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E+PREFIX+%3A+%3Chttp%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F%3E+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+', 'http://alaska.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+<http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23>+PREFIX+%3A+<http%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F>+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fs+a+%3Ftype+.+%3Ftype+rdfs%3Alabel+%3Ftype_label+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fs+a+%3Ftype%7D+.+optional%7B%3Ftype+rdfs%3Alabel+%3Ftype_label%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+']",False,1,0.0,1,0.78,0,1,0.63,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.63
+eagle-i-cau,eagle-i @ Clark Atlanta University,http://cau.eagle-i.net/sparqler/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+eagle-i-ccny-cuny,eagle-i @ The City College of New York,http://ccny-cuny.eagle-i.net/sparqler/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+eagle-i-cdrewu,eagle-i @ Charles R. Drew University,http://cdrewu.eagle-i.net/sparqler/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+eagle-i-dartmouth,eagle-i @ Dartmouth College,http://dartmouth.eagle-i.net/sparqler/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+eagle-i-famu,eagle-i @ Florida Agricultural and Mechanical University,http://famu.eagle-i.net/sparqler/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+eagle-i-harvard,eagle-i @ Harvard University,http://harvard.eagle-i.net/sparqler/sparql,"['http://harvard.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E+PREFIX+%3A+%3Chttp%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F%3E+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+', 'http://harvard.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+<http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23>+PREFIX+%3A+<http%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F>+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fs+a+%3Ftype+.+%3Ftype+rdfs%3Alabel+%3Ftype_label+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fs+a+%3Ftype%7D+.+optional%7B%3Ftype+rdfs%3Alabel+%3Ftype_label%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+']",False,1,0.0,1,0.78,0,1,0.63,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.63
+eagle-i-hawaii,eagle-i @ University of Hawai’i at Mānoa,http://hawaii.eagle-i.net/sparqler/sparql,"['http://hawaii.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E+PREFIX+%3A+%3Chttp%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F%3E+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+', 'http://hawaii.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+<http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23>+PREFIX+%3A+<http%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F>+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fs+a+%3Ftype+.+%3Ftype+rdfs%3Alabel+%3Ftype_label+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fs+a+%3Ftype%7D+.+optional%7B%3Ftype+rdfs%3Alabel+%3Ftype_label%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+']",False,1,0.0,1,0.78,0,1,0.63,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.63
+eagle-i-howard,eagle-i @ Howard University,http://howard.eagle-i.net/sparqler/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+eagle-i-hunter-cuny,eagle-i @ Hunter College,http://hunter-cuny.eagle-i.net/sparqler/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+eagle-i-jsu,eagle-i @ Jackson State University,http://jsu.eagle-i.net/sparqler/sparql,"['http://jsu.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E+PREFIX+%3A+%3Chttp%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F%3E+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+', 'http://jsu.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+<http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23>+PREFIX+%3A+<http%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F>+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fs+a+%3Ftype+.+%3Ftype+rdfs%3Alabel+%3Ftype_label+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fs+a+%3Ftype%7D+.+optional%7B%3Ftype+rdfs%3Alabel+%3Ftype_label%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+']",False,1,0.0,1,0.78,0,1,0.63,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.63
+eagle-i-meharry,eagle-i @ Meharry Medical College,http://meharry.eagle-i.net/sparqler/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+eagle-i-montana,eagle-i @ Montana State University,http://montana.eagle-i.net/sparqler/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+eagle-i-msm,eagle-i @ Morehouse School of Medicine,http://msm.eagle-i.net/sparqler/sparql,"['http://msm.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E+PREFIX+%3A+%3Chttp%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F%3E+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+', 'http://msm.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+<http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23>+PREFIX+%3A+<http%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F>+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fs+a+%3Ftype+.+%3Ftype+rdfs%3Alabel+%3Ftype_label+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fs+a+%3Ftype%7D+.+optional%7B%3Ftype+rdfs%3Alabel+%3Ftype_label%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+']",False,1,0.0,1,0.78,0,1,0.63,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.63
+eagle-i-ohsu,eagle-i @ Oregon Health and Science University,http://ohsu.eagle-i.net/sparqler/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+eagle-i-psm,eagle-i @ Ponce School of Medicine,http://psm.eagle-i.net/sparqler/sparql,"['http://psm.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E+PREFIX+%3A+%3Chttp%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F%3E+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+', 'http://psm.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+<http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23>+PREFIX+%3A+<http%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F>+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fs+a+%3Ftype+.+%3Ftype+rdfs%3Alabel+%3Ftype_label+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fs+a+%3Ftype%7D+.+optional%7B%3Ftype+rdfs%3Alabel+%3Ftype_label%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+']",False,1,0.0,1,0.78,0,1,0.63,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.63
+eagle-i-tsu,eagle-i @ Texas Southern University,http://tsu.eagle-i.net/sparqler/sparql,"['http://tsu.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E+PREFIX+%3A+%3Chttp%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F%3E+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+', 'http://tsu.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+<http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23>+PREFIX+%3A+<http%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F>+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fs+a+%3Ftype+.+%3Ftype+rdfs%3Alabel+%3Ftype_label+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fs+a+%3Ftype%7D+.+optional%7B%3Ftype+rdfs%3Alabel+%3Ftype_label%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+']",False,1,0.0,1,0.78,0,1,0.63,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.63
+eagle-i-tuskegee,eagle-i @ Tuskegee University,http://tuskegee.eagle-i.net/sparqler/sparql,"['http://tuskegee.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E+PREFIX+%3A+%3Chttp%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F%3E+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+', 'http://tuskegee.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+<http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23>+PREFIX+%3A+<http%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F>+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fs+a+%3Ftype+.+%3Ftype+rdfs%3Alabel+%3Ftype_label+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fs+a+%3Ftype%7D+.+optional%7B%3Ftype+rdfs%3Alabel+%3Ftype_label%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+']",False,1,0.0,1,0.78,0,1,0.63,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.63
+eagle-i-uccaribe,eagle-i @ Universidad Central del Caribe,http://uccaribe.eagle-i.net/sparqler/sparql,"['http://uccaribe.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E+PREFIX+%3A+%3Chttp%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F%3E+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+', 'http://uccaribe.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+<http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23>+PREFIX+%3A+<http%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F>+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fs+a+%3Ftype+.+%3Ftype+rdfs%3Alabel+%3Ftype_label+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fs+a+%3Ftype%7D+.+optional%7B%3Ftype+rdfs%3Alabel+%3Ftype_label%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+']",False,1,0.0,1,0.78,0,1,0.63,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.63
+eagle-i-upr,eagle-i@ University of Puerto Rico - Medical Sciences Campus,http://upr.eagle-i.net/sparqler/sparql,"['http://upr.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E+PREFIX+%3A+%3Chttp%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F%3E+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+', 'http://upr.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+<http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23>+PREFIX+%3A+<http%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F>+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fs+a+%3Ftype+.+%3Ftype+rdfs%3Alabel+%3Ftype_label+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fs+a+%3Ftype%7D+.+optional%7B%3Ftype+rdfs%3Alabel+%3Ftype_label%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+']",False,1,0.0,1,0.78,0,1,0.63,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.63
+eagle-i-utep,eagle-i @ University of Texas at El Paso,http://utep.eagle-i.net/sparqler/sparql,"['http://utep.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E+PREFIX+%3A+%3Chttp%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F%3E+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+', 'http://utep.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+<http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23>+PREFIX+%3A+<http%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F>+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fs+a+%3Ftype+.+%3Ftype+rdfs%3Alabel+%3Ftype_label+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fs+a+%3Ftype%7D+.+optional%7B%3Ftype+rdfs%3Alabel+%3Ftype_label%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+']",False,1,0.0,1,0.78,0,1,0.63,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.63
+eagle-i-utsa,eagle-i @ University of Texas at San Antonio,http://utsa.eagle-i.net/sparqler/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+eagle-i-vanderbilt,eagle-i @ Vanderbilt University,https://eagle-i.ea.vanderbilt.edu/sparqler/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+eagle-i-xula,eagle-i @ Xavier University of Louisiana,http://xula.eagle-i.net/sparqler/sparql,"['http://xula.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E+PREFIX+%3A+%3Chttp%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F%3E+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+', 'http://xula.eagle-i.net/sparqler/sparql?view=published-resources&format=text/turtle&query=PREFIX+rdfs%3A+<http%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23>+PREFIX+%3A+<http%3A%2F%2Feagle-i.org%2Font%2Frepo%2F1.0%2F>+construct+%7B%3Fs+%3Fp+%3Fo+.+%3Fs+a+%3Ftype+.+%3Ftype+rdfs%3Alabel+%3Ftype_label+.+%3Fp+rdfs%3Alabel+%3Fp_label+.+%3Fo+rdfs%3Alabel+%3Fo_label%7D+where+%7Bgraph+%3ANG_Published%7B%3Fs+%3Fp+%3Fo%7D+.+optional%7B%3Fs+a+%3Ftype%7D+.+optional%7B%3Ftype+rdfs%3Alabel+%3Ftype_label%7D+.+optional%7B%3Fp+rdfs%3Alabel+%3Fp_label+%7D+.+optional%7B+%3Fo+rdfs%3Alabel+%3Fo_label%7D%7D+']",False,1,0.0,1,0.78,0,1,0.63,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.63
+entrez_gene,Entrez Gene,,[],False,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+eunis,European Nature Information System,http://semantic.eea.europa.eu/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+farmbio-chembl,ChEMBL-RDF (@ Uppsala University),http://rdf.farmbio.uu.se/chembl/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+fu-berlin-dailymed,DailyMed,http://www4.wiwiss.fu-berlin.de/dailymed/sparql,[],False,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,2.09
+fu-berlin-diseasome,Diseasome,http://www4.wiwiss.fu-berlin.de/diseasome/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+fu-berlin-drugbank,DrugBank,http://www4.wiwiss.fu-berlin.de/drugbank/sparql,[],False,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,2.09
+fu-berlin-medicare,MediCare,http://www4.wiwiss.fu-berlin.de/medicare/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+fu-berlin-sider,SIDER: Side Effect Resource,http://www4.wiwiss.fu-berlin.de/sider/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+fu-berlin-stitch,STITCH: Chemical-Protein Interactions,http://www4.wiwiss.fu-berlin.de/stitch/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+GACS,Global Agricultural Concept Space,,['https://github.com/gacs/gacs-scheme/blob/master/src/gacs-core-scheme.ttl'],False,1,0.0,1,0.56,0,1,0.59,1.0,1,0.0,1,0.75,1,0,0.0,0,0.25,1,1,1,0,0.75,2.34
+gene-expression-atlas-rdf,Gene Expression Atlas RDF,http://www.ebi.ac.uk/rdf/services/atlas/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+geospecies,GeoSpecies Knowledge Base,http://lsd.taxonconcept.org/sparql,[],False,1,0.0,1,0.78,0,1,0.63,0.0,1,0.0,1,0.5,1,1,0.47,1,0.87,1,1,1,1,1.0,3.0
+kupkb,Kidney and Urinary Pathway Knowledge Base,http://sparql.kupkb.org/sparql,[],False,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+linked-life-data,Linked Life Data,http://linkedlifedata.com/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+linked-structured-product-labels,Linked Structured Product Labels,https://dbmi-icode-01.dbmi.pitt.edu/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+linked-tcga,Linked TCGA,http://tcga.deri.ie,[],False,1,0.0,1,0.56,0,1,0.59,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.34
+linkedct,LinkedCT,http://data.linkedct.org/sparql,['http://www.cs.toronto.edu/%7Eoktie/linkedct/linkedct-live-dump-latest.nt.bz2'],False,1,0.0,1,0.78,0,1,0.63,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.63
+lodac-bdls,LODAC BDLS,http://lod.ac/bdls/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.5,1,0.0,1,0.62,1,1,0.0,1,0.75,1,1,1,1,1.0,2.98
+Naturopathy,Naturopathy knowledge Graph (Ontology and Dataset) - RDF distribution of the naturopathy dataset.,,['http://sensormeasurement.appspot.com/dataset/naturopathy-dataset'],True,1,0.0,1,0.78,1,1,0.8,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.8
+nextprot,neXtProt,https://sparql.nextprot.org/,[],False,1,1.0,1,0.56,0,1,0.76,1.0,1,1.0,1,1.0,1,1,0.0,1,0.75,1,1,1,1,1.0,3.51
+nvs,NERC Vocabulary Server 2.0,http://vocab.nerc.ac.uk/sparql/,[],False,1,0.0,1,0.67,0,1,0.61,0.5,1,0.0,1,0.62,1,1,0.0,1,0.75,1,1,1,1,1.0,2.98
+ogolod,Orthology and Diseases Information - OGO,http://miuras.inf.um.es/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+ontobeef-domain,OntoBeef Domain,http://onto.beef.org.pl/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+organic-edunet,Organic Edunet Linked Open Data,http://data.organic-edunet.eu/sparql,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+PGxLOD,PGxLOD,https://pgxlod.loria.fr/sparql,"['https://raw.githubusercontent.com/DiseaseOntology/HumanDiseaseOntology/master/src/ontology/HumanDO.obo', 'https://sourceforge.net/p/efo/code/HEAD/tree/trunk/src/efoinobo/efo.obo', 'http://www.orphadata.org/data/xml/en_product6.xml', 'http://www.uniprot.org/docs/humsavar.txt', 'http://purl.obolibrary.org/obo/hp.obo', 'http://ctdbase.org/reports/CTD_genes_diseases.tsv.gz', 'http://www.ebi.ac.uk/gwas/api/search/downloads/alternative']",True,1,0.4324,1,0.67,0,1,0.68,1.0,1,1.0,1,1.0,1,1,0.36,1,0.84,1,1,1,1,1.0,3.52
+reactome-rdf,Reactome RDF,,[],False,1,0.0,1,0.33,0,1,0.56,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,2.06
+sandre,Taxons ,http://id.eaufrance.fr/sparql,[],False,1,0.2787672603562137,1,0.56,0,1,0.64,1.0,1,1.0,1,1.0,1,0,0.0,1,0.5,1,1,1,0,0.75,2.89
+snik,SNIK,https://www.snik.eu/sparql,['https://github.com/snikproject/ontology/archive/refs/heads/master.zip'],False,1,0.8477695539107821,1,0.67,0,1,0.75,1.0,1,1.0,1,1.0,1,1,0.0,1,0.75,1,1,1,1,1.0,3.5
+taxonconcept,TaxonConcept Knowledge Base,http://lsd.taxonconcept.org/sparql,"['http://ocs.taxonconcept.org/ocs/f522444a-2dd9-400e-be59-47213ef38cb9.rdf', 'http://lod.taxonconcept.org/rdf/txn_ocs.ttl.gz', 'http://lod.taxonconcept.org/rdf/txn_images.ttl.gz', 'http://lod.taxonconcept.org/rdf/txn_distribution.ttl.gz', 'http://lod.taxonconcept.org/rdf/txn_misc.ttl.gz']",False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+taxonconcept-assets,taxonconcept-assets,,[],False,1,0.0,1,0.33,0,1,0.56,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,2.06
+taxonconcept-occurences,taxonconcept-occurences,,[],False,1,0.0,1,0.33,0,1,0.56,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,2.06
+taxref-ld,TAXREF-LD: Linked Data French Taxonomic Register,https://taxref.mnhn.fr/sparql,"['https://doi.org/10.5281/zenodo.6940891', 'https://zenodo.org/record/5876775/files/taxrefld15.1.tar?download=1']",False,1,0.9516597510373443,1,1.0,1,1,0.99,1.0,1,1.0,1,1.0,1,1,0.31,1,0.83,1,1,1,1,1.0,3.82
+tcga-roadmap,TCGA Roadmap,http://agalpha.mathbiol.org/repositories/tcga,[],False,1,0.0,1,0.67,0,1,0.61,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,1,1,1,0,0.75,2.36
+tcmgenedit_dataset,TCMGeneDIT Dataset,http://www.open-biomed.org.uk/sparql/endpoint/tcm,['http://www.open-biomed.org.uk/tcmdata/tcm_rdf_data_release3_190609_turtle.tar.gz'],False,1,0.0,1,0.78,0,1,0.63,1.0,1,0.0,1,0.75,1,0,0.0,1,0.5,1,1,1,0,0.75,2.63
+UniProt,UniProt,https://sparql.uniprot.org/sparql,['https://ftp.uniprot.org/pub/databases/uniprot/current_release/rdf/'],False,1,0.2,1,0.78,0,1,0.66,1.0,1,1.0,1,1.0,1,1,0.43,1,0.86,1,1,1,1,1.0,3.52
+uniprot,UniProt,http://sparql.uniprot.org,[],False,1,0.1,1,0.67,0,1,0.63,1.0,1,1.0,1,1.0,1,0,0.0,1,0.5,1,1,1,0,0.75,2.88
+uniprot-metadata,uniprot-metadata,,[],False,1,0.0,1,0.33,0,1,0.56,0.0,1,0.0,1,0.5,1,0,0.0,1,0.5,0,1,1,0,0.5,2.06
+uniprotkb,UniProtKB,https://sparql.uniprot.org/sparql,[],False,1,0.2,1,0.67,0,1,0.64,1.0,1,1.0,1,1.0,1,1,0.43,1,0.86,1,1,1,1,1.0,3.5
