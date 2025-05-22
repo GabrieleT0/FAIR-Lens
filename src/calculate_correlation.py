@@ -40,7 +40,7 @@ class CalculateCorrelation:
         df = pd.read_csv(self.analysis_result,usecols=columns_to_use) 
 
         if filter_by_ids:
-            df = df[df['KG id'].isin(utils.get_always_observed_ids('../data/quality_data/kghb_output/2024-01-07.csv'))]
+            df = df[df['KG id'].isin(utils.get_always_observed_ids('../data/quality_data/all/2024-01-07.csv'))]
 
         # Delete the column to avoid errors
         columns_to_drop = ["KG id","KG name","KG SPARQL endpoint","RDF dump link","Ontology"]
