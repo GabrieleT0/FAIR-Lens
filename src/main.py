@@ -62,32 +62,18 @@ def generate_boxplots():
 
     fair_score_boxplot = GenerateBoxplots('../data/fairness_evaluation_results')
 
-    fair_score_boxplot.generate_combined_boxplot('../charts','F score',0,1.01)
-    fair_score_boxplot.generate_combined_boxplot('../charts','A score',0,1.01)
-    fair_score_boxplot.generate_combined_boxplot('../charts','I score',0,1.01)
-    fair_score_boxplot.generate_combined_boxplot('../charts','R score',0,1.01)
-    fair_score_boxplot.generate_combined_boxplot('../charts','FAIR score',0,4)
-
-def generate_boxplots():
-
-    fair_score_boxplot = GenerateBoxplots('../data/fairness_evaluation_results')
-
-    fair_score_boxplot.generate_combined_boxplot('../charts','F score',0,1.01)
-    fair_score_boxplot.generate_combined_boxplot('../charts','A score',0,1.01)
-    fair_score_boxplot.generate_combined_boxplot('../charts','I score',0,1.01)
-    fair_score_boxplot.generate_combined_boxplot('../charts','R score',0,1.01)
-    fair_score_boxplot.generate_combined_boxplot('../charts','FAIR score',0,4)
+    fair_score_boxplot.generate_combined_boxplot('../charts','F score',0,1.01,True)
+    fair_score_boxplot.generate_combined_boxplot('../charts','A score',0,1.01,True)
+    fair_score_boxplot.generate_combined_boxplot('../charts','I score',0,1.01,True)
+    fair_score_boxplot.generate_combined_boxplot('../charts','R score',0,1.01,True)
+    fair_score_boxplot.generate_combined_boxplot('../charts','FAIR score',0,4,True)
 
 if __name__ == "__main__":
     with open('../data/kgs_by_topic.json', "r", encoding="utf-8") as f:
         kgs_by_topic = json.load(f)
     kgs_by_topic['all'] = [] # Only useful to evaluate the FAIRness on the entire LOD Cloud, to use it as baseline (no topical distinction)
     
-    # split_quality_data_by_domain()
-    # evaluate_fairness(kgs_by_topic)
-    # verify_normal_distribution(kgs_by_topic)
     split_quality_data_by_domain()
     evaluate_fairness(kgs_by_topic)
-    generate_boxplots()
     verify_normal_distribution(kgs_by_topic)
     calculate_correlation(kgs_by_topic)
