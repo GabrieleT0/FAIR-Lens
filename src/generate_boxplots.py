@@ -7,6 +7,7 @@ import matplotlib
 matplotlib.use('Agg')
 import matplotlib.pyplot as plt
 from datetime import datetime
+import utils
 
 class GenerateBoxplots():
     def __init__(self,fariness_evaluation_path):
@@ -17,12 +18,14 @@ class GenerateBoxplots():
         for topic in kgs_by_topic:
             self.csv_files.append((topic,glob.glob(os.path.join(f'{fariness_evaluation_path}/{topic}/', '*.csv')))) 
     
-    def generate_combined_boxplot(self,output_dir,column_to_plot,y_min,y_max):
+    def generate_combined_boxplot(self,output_dir,column_to_plot,y_min,y_max,filter_by_ids = False):
         fair_scores = []
         for label, file in self.csv_files:
             file = sorted(file, key=lambda x: datetime.strptime(x.split('/')[-1].split('.')[0], "%Y-%m-%d"))
             if len(file) > 0:
                 df = pd.read_csv(file[len(file) - 1]) # Generate the boxplot based on the last analyisis data
+                if filter_by_ids:
+                    df = df[df['KG id'].isin(utils.get_always_observed_ids('../data/quality_data/all/2024-01-07.csv'))]
                 if column_to_plot in df.columns:
                     fair_scores.append(pd.DataFrame({
                         column_to_plot : df[column_to_plot],
@@ -34,7 +37,7 @@ class GenerateBoxplots():
         combined_df = pd.concat(fair_scores, ignore_index=True)
 
         summary = combined_df.groupby('Subclouds')[column_to_plot].describe()
-        outliers_df = self.get_outliers(combined_df, value_column='A score', category_column='Subclouds')
+        outliers_df = self.get_outliers(combined_df, value_column=column_to_plot, category_column='Subclouds')
         print(summary)
         outliers_df.to_csv('outliers.csv', index=False)
 
@@ -62,7 +65,3 @@ class GenerateBoxplots():
             outliers.append(category_outliers)
 
         return pd.concat(outliers)
-
-    
-#test = GenerateBoxplots('../data/fairness_evaluation_results')
-#test.generate_combined_boxplot('../charts','A score',y_min=0,y_max=1.01)
