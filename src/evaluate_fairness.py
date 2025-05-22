@@ -109,7 +109,7 @@ class EvaluateFAIRness:
         metadata_in_sparql = self.quality_data['SPARQL endpoint URL'].apply(utils.check_meta_in_sparql)
         try:
             self.fairness_evaluation['R1.3-M Metadata are described with VoID/DCAT predicates'] = (
-                (self.quality_data['metadata-media-type'].str.contains('meta/void', na=False).astype(int) | 
+                (self.quality_data['Serialization formats'].str.contains('meta/void', na=False).astype(int) | 
                 (metadata_in_sparql == 1)).astype(int) | 
                 (~self.quality_data['License machine redeable (query)'].isin(['-','',False,'False'])).astype(int)
             )
