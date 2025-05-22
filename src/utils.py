@@ -148,3 +148,21 @@ def verify_normal_distribution(csv_file_path,columns_to_verify):
             return False
     print("All column are normally distributed")
     return True
+
+def get_always_observed_ids(first_analysis):
+    all_ids = {}
+
+    df = pd.read_csv(first_analysis)
+
+    if 'KG id' not in df.columns:
+        return []  
+
+    for _, row in df.iterrows():
+        kg_id = row['KG id']
+        
+        if kg_id not in all_ids:
+            all_ids[kg_id] = True
+    print(f"All ids: {len(all_ids)}")
+    return list(all_ids.keys())
+
+#get_always_observed_ids('../data/quality_data/all/2024-01-07.csv')
