@@ -1,0 +1,6 @@
+,Availability,Availability_p-value,Licensing,Licensing_p-value,Interlinking,Interlinking_p-value,Verifiability,Verifiability_p-value,Security,Security_p-value
+Availability,1.0,***,0.16,,0.53,***,0.14,,0.58,***
+Licensing,0.16,,1.0,***,0.08,,0.15,,0.09,
+Interlinking,0.53,***,0.08,,1.0,***,0.29,*,0.93,***
+Verifiability,0.14,,0.15,,0.29,*,1.0,***,0.26,*
+Security,0.58,***,0.09,,0.93,***,0.26,*,1.0,***
