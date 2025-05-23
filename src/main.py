@@ -6,6 +6,7 @@ import json
 import glob
 import os
 import utils
+from datetime import datetime
 
 # Split KGHB quality data into quality data separated by topic
 def split_quality_data_by_domain():
@@ -58,6 +59,19 @@ def calculate_correlation(kgs_by_topic):
                                                                                                         'R1.3-D Data organized in a standardized way','R1.3-M Metadata are described with VoID/DCAT predicates','R score','FAIR score'],
             True)
 
+def calculate_correlation_on_quality_dimensions(kgs_by_topic):
+    for topic in kgs_by_topic:
+        csv_files = glob.glob(os.path.join(f'../data/quality_data/{topic}/', '*.csv'))
+        csv_files = sorted(csv_files, key=lambda x: datetime.strptime(x.split('/')[-1].split('.')[0], "%Y-%m-%d"))
+
+        correlation = CalculateCorrelation(f'../data/quality_data/{topic}/{os.path.basename(csv_files[len(csv_files) - 1])}',topic,os.path.basename(csv_files[len(csv_files) - 1]).split('.')[0])
+        correlation.calculate_spearman_correlation_matrix(['Availability score','Security score','Verifiability score','Interlinking score','Licensing score'],
+        True,True,False)
+       
+        correlation = CalculateCorrelation(f'../data/quality_data/{topic}/{os.path.basename(csv_files[len(csv_files) - 1])}',topic,os.path.basename(csv_files[len(csv_files) - 1]).split('.')[0])
+        correlation.calculate_spearman_correlation_matrix(['Availability score','Security score','Verifiability score','Interlinking score','Licensing score'],
+        True,True,True)
+
 def generate_boxplots():
 
     fair_score_boxplot = GenerateBoxplots('../data/fairness_evaluation_results')
@@ -77,3 +91,4 @@ if __name__ == "__main__":
     evaluate_fairness(kgs_by_topic)
     verify_normal_distribution(kgs_by_topic)
     calculate_correlation(kgs_by_topic)
+    calculate_correlation_on_quality_dimensions(kgs_by_topic)
