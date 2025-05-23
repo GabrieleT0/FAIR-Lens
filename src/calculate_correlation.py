@@ -37,7 +37,8 @@ class CalculateCorrelation:
             :param replace_columns: if True, columns that have a list or a boll value as their value will be transformed into a float
         '''
         columns_to_use.append('KG id')
-        columns_to_use.append('Sparql endpoint')
+        if traditional_dimensions:
+            columns_to_use.append('Sparql endpoint')
         df = pd.read_csv(self.analysis_result,usecols=columns_to_use) 
 
         if filter_by_ids:
