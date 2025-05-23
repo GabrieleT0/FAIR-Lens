@@ -3,7 +3,6 @@ pd.set_option('future.no_silent_downcasting', True)
 from scipy.stats import pearsonr
 from scipy.stats import spearmanr
 import os
-import csv
 import numpy as np
 from scipy.stats import ttest_ind
 import utils
@@ -13,6 +12,7 @@ from matplotlib.colors import LinearSegmentedColormap
 import matplotlib.pyplot as plt
 import seaborn as sns
 matplotlib.use('Agg')
+
 
 here = os.path.dirname(os.path.abspath(__file__))
 
@@ -29,7 +29,7 @@ class CalculateCorrelation:
         self.output_file = os.path.join(here,f'../data/correlation_results/{topic}/{analysis_result_date}')
 
 
-    def calculate_spearman_correlation_matrix(self,columns_to_use, filter_by_ids = False):
+    def calculate_spearman_correlation_matrix(self,columns_to_use, filter_by_ids = False, traditional_dimensions = False, sparql_up = False):
         '''
             Generate the Spearman Correlation matrix by using the values in the columns columns_to_use from the CSV file.      
 
@@ -37,13 +37,18 @@ class CalculateCorrelation:
             :param replace_columns: if True, columns that have a list or a boll value as their value will be transformed into a float
         '''
         columns_to_use.append('KG id')
+        columns_to_use.append('Sparql endpoint')
         df = pd.read_csv(self.analysis_result,usecols=columns_to_use) 
 
         if filter_by_ids:
             df = df[df['KG id'].isin(utils.get_always_observed_ids('../data/quality_data/all/2024-01-07.csv'))]
+        if traditional_dimensions:
+            df.replace('-', np.nan, inplace=True)
+        if traditional_dimensions and sparql_up:
+            df = df[(df["Sparql endpoint"] == "Available")] 
 
         # Delete the column to avoid errors
-        columns_to_drop = ["KG id","KG name","KG SPARQL endpoint","RDF dump link","Ontology"]
+        columns_to_drop = ["KG id","KG name","Sparql endpoint","RDF dump link","Ontology"]
         df = df.drop(columns=columns_to_drop, errors='ignore')
 
         df.columns = [col.split(' ')[0].split('_')[0] for col in df.columns]
@@ -61,8 +66,13 @@ class CalculateCorrelation:
             # Append corresponding significance stars
             final_matrix[f"{col}_p-value"] = p[col]
 
+        if traditional_dimensions and not sparql_up:
+            self.output_file = self.output_file + '_dimensions'
+        if traditional_dimensions and sparql_up:
+            self.output_file = self.output_file + '_dimensions' + '_sparql_up'
+
         final_matrix.to_csv(f'{self.output_file}.csv')
-        self.draw_heatmap(final_matrix,os.path.basename(self.output_file[0]))
+        self.draw_heatmap(final_matrix,os.path.basename(self.output_file))
 
 
     def draw_heatmap(self, correlation_data, title, replace = False):
