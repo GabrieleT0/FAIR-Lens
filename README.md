@@ -5,9 +5,22 @@ This repository contains data and code to reproduce the results for the article 
 2. [Reproduce the results](#reproduce-the-results)
 
 ## Explore the complete data about the tables presented in the article
+All the data presented in the article can be found in the [data/](./data/) folder.
 
+### Fairness Evaluation Results
 
-## Reproduce the result
+The [fairness_evaluation_results](./data/fairness_evaluation_results/) folder contains CSV files with the fairness data for each subcloud. Each subfolder corresponds to a subcloud, and within it are five CSV files, each representing the FAIRness evaluation for one of the five observations.
+
+### Correlation results
+The [correlation_results](./data/correlation_results/) folder contains the correlation data between the metrics of the FAIR principles. Each subfolder corresponds to the correlations for a specific subcloud, and within each subfolder, you will find correlation results for the five observations in both CSV format and as heatmaps in PNG format.
+
+Files ending with *_dimensions refer to the correlations computed only for the quality dimensions that are mapped to the FAIR principles, following the table presented in the paper. Files labeled with sparql_up indicate that only datasets with active SPARQL endpoints were considered for those correlations.
+
+### Quality data 
+The [quality_data](./data/quality_data/) folder contains the raw quality data computed by KGHeartBeat, organized by subcloud. Each subfolder includes five CSV files, each corresponding to the quality observed on a specific date. 
+The data in these folders will be generated upon executing the results regeneration procedure described in Section [Reproduce the results](#reproduce-the-results).
+
+## Reproduce the results
 ### Requirements
 
 - Python 3.13 or later.
