@@ -1,6 +1,6 @@
-,Availability,Availability_p-value,Licensing,Licensing_p-value,Interlinking,Interlinking_p-value,Verifiability,Verifiability_p-value,Security,Security_p-value
-Availability,1.0,***,0.07,,0.45,**,0.08,,0.45,**
-Licensing,0.07,,1.0,***,0.29,,0.5,***,0.31,*
-Interlinking,0.45,**,0.29,,1.0,***,0.39,**,1.0,***
-Verifiability,0.08,,0.5,***,0.39,**,1.0,***,0.39,*
-Security,0.45,**,0.31,*,1.0,***,0.39,*,1.0,***
+,Availability,Licensing,Interlinking,Verifiability,Security
+Availability,"1.00 [1.00, 1.00] ***","-0.09 [-0.42, 0.25] ","0.27 [nan, nan] ","0.04 [-0.38, 0.45] ","0.27 [nan, nan] "
+Licensing,"-0.09 [-0.42, 0.25] ","1.00 [1.00, 1.00] ***","0.13 [nan, nan] ","0.31 [-0.01, 0.58] ","0.13 [nan, nan] "
+Interlinking,"0.27 [nan, nan] ","0.13 [nan, nan] ","1.00 [nan, nan] ***","0.24 [nan, nan] ","1.00 [nan, nan] ***"
+Verifiability,"0.04 [-0.38, 0.45] ","0.31 [-0.01, 0.58] ","0.24 [nan, nan] ","1.00 [1.00, 1.00] ***","0.24 [nan, nan] "
+Security,"0.27 [nan, nan] ","0.13 [nan, nan] ","1.00 [nan, nan] ***","0.24 [nan, nan] ","1.00 [nan, nan] ***"

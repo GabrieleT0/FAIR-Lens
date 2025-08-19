@@ -19,7 +19,7 @@ def verify_normal_distribution(kgs_by_topic):
    
     for topic in kgs_by_topic:
         print(f"Verifying normal distribution for subclouds {topic}...")
-        utils.verify_normal_distribution(f'../data/fairness_evaluation_results/{topic}/2025-04-14.csv',['F1-M Unique and persistent ID','F1-D URIs dereferenceability','F2a-M - Metadata availability via standard primary sources',
+        utils.verify_normal_distribution(f'../data/fairness_evaluation_results/{topic}/2024-01-07.csv',['F1-M Unique and persistent ID','F1-D URIs dereferenceability','F2a-M - Metadata availability via standard primary sources',
                                                                                                 'F2b-M Metadata availability for all the attributes covered in the FAIR score computation','F3-M Data referrable via a DOI',
                                                                                                 'F4-M Metadata registered in a searchable engine','F score','A1-D Working access point(s)','A1-M Metadata availability via working primary sources',
                                                                                                 'A1.2 Authentication & HTTPS support','A2-M Registered in search engines','A score','I1-D Standard & open representation format',
@@ -87,8 +87,8 @@ if __name__ == "__main__":
         kgs_by_topic = json.load(f)
     kgs_by_topic['all'] = [] # Only useful to evaluate the FAIRness on the entire LOD Cloud, to use it as baseline (no topical distinction)
     
-    split_quality_data_by_domain()
-    evaluate_fairness(kgs_by_topic)
-    verify_normal_distribution(kgs_by_topic)
+    #split_quality_data_by_domain()
+    #evaluate_fairness(kgs_by_topic)
+    #verify_normal_distribution(kgs_by_topic)
     calculate_correlation(kgs_by_topic)
     calculate_correlation_on_quality_dimensions(kgs_by_topic)

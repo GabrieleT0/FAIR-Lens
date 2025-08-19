@@ -29,89 +29,100 @@ class CalculateCorrelation:
         self.output_file = os.path.join(here,f'../data/correlation_results/{topic}/{analysis_result_date}')
 
 
-    def calculate_spearman_correlation_matrix(self,columns_to_use, filter_by_ids = False, traditional_dimensions = False, sparql_up = False):
-        '''
-            Generate the Spearman Correlation matrix by using the values in the columns columns_to_use from the CSV file.      
-
-            :param columns_to_use: list of strings representing the names of the columns from which to take values to measure correlation.
-            :param replace_columns: if True, columns that have a list or a boll value as their value will be transformed into a float
-        '''
+    def calculate_spearman_correlation_matrix(self, columns_to_use, filter_by_ids=False, traditional_dimensions=False, sparql_up=False,ci_level=95, n_bootstrap=1000):
+        """
+        Generate the Spearman correlation matrix with CI and significance.
+        """
         columns_to_use.append('KG id')
         if traditional_dimensions:
             columns_to_use.append('Sparql endpoint')
-        df = pd.read_csv(self.analysis_result,usecols=columns_to_use) 
+        df = pd.read_csv(self.analysis_result, usecols=columns_to_use)
 
         if filter_by_ids:
+            import utils
             df = df[df['KG id'].isin(utils.get_always_observed_ids('../data/quality_data/all/2024-01-07.csv'))]
         if traditional_dimensions:
             df.replace('-', np.nan, inplace=True)
         if traditional_dimensions and sparql_up:
-            df = df[(df["Sparql endpoint"] == "Available")] 
+            df = df[(df["Sparql endpoint"] == "Available")]
 
-        # Delete the column to avoid errors
-        columns_to_drop = ["KG id","KG name","Sparql endpoint","RDF dump link","Ontology"]
+        # Drop unused cols
+        columns_to_drop = ["KG id", "KG name", "Sparql endpoint", "RDF dump link", "Ontology"]
         df = df.drop(columns=columns_to_drop, errors='ignore')
 
         df.columns = [col.split(' ')[0].split('_')[0] for col in df.columns]
         df.columns = df.columns.str.strip()
-        rho = df.corr('spearman')
-        pval = df.corr(method=lambda x, y: spearmanr(x, y)[1]) - np.eye(*rho.shape)
-        p = pval.map(add_significance_stars)
-        
-        final_matrix = pd.DataFrame()
 
-        # Iterate through the columns to create pairs of correlation values and stars
-        for col in rho.columns:
-            # Append correlation values
-            final_matrix[col] = rho[col].round(2)  
-            # Append corresponding significance stars
-            final_matrix[f"{col}_p-value"] = p[col]
+        # Prepare matrices
+        correlation_numeric = pd.DataFrame(index=df.columns, columns=df.columns, dtype=float)
+        annotation_matrix = pd.DataFrame(index=df.columns, columns=df.columns, dtype=object)
+
+        for i, col1 in enumerate(df.columns):
+            for j, col2 in enumerate(df.columns):
+                if j < i:
+                    continue
+                rho, (ci_low, ci_high) = spearman_ci(df[col1], df[col2], ci=ci_level, n_bootstrap=n_bootstrap)
+                _, p = spearmanr(df[col1], df[col2])
+                
+                # numeric for heatmap colors
+                correlation_numeric.loc[col1, col2] = rho
+                correlation_numeric.loc[col2, col1] = rho
+
+                # annotation string including r^2
+                annotation_val = f"{rho:.2f} {add_significance_stars(p)} CI=[{ci_low:.2f}, {ci_high:.2f}]"
+                annotation_matrix.loc[col1, col2] = annotation_val
+                annotation_matrix.loc[col2, col1] = annotation_val
 
         if traditional_dimensions and not sparql_up:
             self.output_file = self.output_file + '_dimensions'
         if traditional_dimensions and sparql_up:
             self.output_file = self.output_file + '_dimensions' + '_sparql_up'
 
-        final_matrix.to_csv(f'{self.output_file}.csv')
-        self.draw_heatmap(final_matrix,os.path.basename(self.output_file))
+        # save csv with annotations
+        annotation_matrix.to_csv(f'{self.output_file}.csv')
+
+        # draw heatmap
+        self.draw_heatmap(correlation_numeric, annotation_matrix, os.path.basename(self.output_file))
 
 
-    def draw_heatmap(self, correlation_data, title, replace = False):
+    def draw_heatmap(self, correlation_numeric, annotation_matrix, title):
+        """
+        Draw heatmap with numeric values for color and annotations with rho + stars only.
+        """
+        # Build simplified annotation matrix: just rho + stars
+        simple_annotations = correlation_numeric.copy().astype(str)
+        for i in range(annotation_matrix.shape[0]):
+            for j in range(annotation_matrix.shape[1]):
+                if pd.notna(correlation_numeric.iloc[i, j]):
+                    rho_val = correlation_numeric.iloc[i, j]
+                    # Extract stars from full annotation string
+                    stars = ""
+                    ann_str = annotation_matrix.iloc[i, j]
+                    if ann_str and isinstance(ann_str, str):
+                        if "***" in ann_str:
+                            stars = "***"
+                        elif "**" in ann_str:
+                            stars = "**"
+                        elif "*" in ann_str:
+                            stars = "*"
+                    simple_annotations.iloc[i, j] = f"{rho_val:.2f} {stars}"
+                else:
+                    simple_annotations.iloc[i, j] = ""
 
-        correlation_matrix =  correlation_data.loc[:, ~ correlation_data.columns.str.contains('_p-value')]
-        p_value_matrix =  correlation_data.filter(like='_p-value')
-
-        p_value_numeric = p_value_matrix.replace({'\*\*\*': 0.001, '\*\*': 0.01, '\*': 0.05}, regex=True)
-        p_value_numeric = p_value_numeric.apply(pd.to_numeric, errors='coerce')
-
-        if replace:
-            for col in correlation_matrix:
-                    correlation_matrix[col] = correlation_matrix[col].str.replace(',', '.')
-                    correlation_matrix[col] = pd.to_numeric(correlation_matrix[col], errors='coerce') 
-
-        masked_correlation_matrix = correlation_matrix.copy()
-        masked_correlation_matrix[p_value_numeric > 0.05] = np.nan
-
-        annotations = masked_correlation_matrix.copy().astype(str)
-        for i in range(p_value_matrix.shape[0]):
-            for j in range(p_value_matrix.shape[1]):
-                if not pd.isna(masked_correlation_matrix.iloc[i, j]):
-                    if not pd.isna(p_value_matrix.iloc[i, j]):  
-                        annotations.iloc[i, j] += f" {p_value_matrix.iloc[i, j]}"
-
+        # Heatmap colors still based on numeric rho
         norm = TwoSlopeNorm(vmin=-1, vcenter=0, vmax=1)
-        cmap = LinearSegmentedColormap.from_list('RedGreenRed', ['blue', 'white', 'blue'])
+        cmap = LinearSegmentedColormap.from_list('BlueWhiteBlue', ['blue', 'white', 'blue'])
 
         plt.figure(figsize=(20, 10))
         ax = sns.heatmap(
-            masked_correlation_matrix.astype(float), 
-            annot=annotations.values,                
-            fmt="",                                 
-            cmap=cmap,                               
-            cbar=True,                               
-            norm=norm,                               
-            linewidths=0.5,                         
-            linecolor="gray"                         
+            correlation_numeric.astype(float),
+            annot=simple_annotations.values,
+            fmt="",
+            cmap=cmap,
+            cbar=True,
+            norm=norm,
+            linewidths=0.5,
+            linecolor="gray"
         )
 
         plt.title(title, fontsize=16)
@@ -120,6 +131,39 @@ class CalculateCorrelation:
         plt.tight_layout()
         plt.savefig(self.output_file, dpi=300)
         plt.close()
+
+def spearman_ci(x, y, n_bootstrap=1000, ci=95, random_state=None):
+    """
+    Compute Spearman correlation with bootstrap confidence interval.
+    
+    :param x: first variable (array-like)
+    :param y: second variable (array-like)
+    :param n_bootstrap: number of bootstrap resamples
+    :param ci: confidence level (e.g., 95)
+    :return: rho, (ci_low, ci_high)
+    """
+    rng = np.random.default_rng(random_state)
+    x, y = np.array(x), np.array(y)
+    mask = ~np.isnan(x) & ~np.isnan(y)   # remove NaNs
+    x, y = x[mask], y[mask]
+
+    if len(x) < 3:  # not enough data
+        return np.nan, (np.nan, np.nan)
+
+    # observed Spearman correlation
+    rho, _ = spearmanr(x, y)
+
+    # bootstrap resampling
+    bootstrapped = []
+    for _ in range(n_bootstrap):
+        idx = rng.integers(0, len(x), len(x))
+        rho_b, _ = spearmanr(x[idx], y[idx])
+        bootstrapped.append(rho_b)
+
+    lower = np.percentile(bootstrapped, (100-ci)/2)
+    upper = np.percentile(bootstrapped, 100-(100-ci)/2)
+
+    return rho, (lower, upper)
 
 def add_significance_stars(p):
     if p < 0.001:
