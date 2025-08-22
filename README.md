@@ -29,7 +29,7 @@ The data in these folders will be generated upon executing the results regenerat
 - zip on linux to extract compressed files (on Windows, any software capable of decompressing a .zip file is suitable).
 
 ### Download KGHeartBeat quality data
-You can download the quality data of the five time snapshots from the following link: [https://drive.google.com/file/d/10oY0Vk-fdhzjlDoHE9_BHx-6M3mUrrS3/view?usp=sharing](https://drive.google.com/file/d/10oY0Vk-fdhzjlDoHE9_BHx-6M3mUrrS3/view?usp=sharing)
+You can download the quality data of the five time snapshots from the following link: [https://drive.google.com/file/d/10oY0Vk-fdhzjlDoHE9_BHx-6M3mUrrS3/view?usp=sharing](https://drive.google.com/file/d/10oY0Vk-fdhzjlDoHE9_BHx-6M3mUrrS3/view?usp=sharing). 
 Then put the .zip file in the [./data/quality_data/kghb_output](./data/quality_data/kghb_output/) directory.
 
 ### Linux and MacOS users
