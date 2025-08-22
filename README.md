@@ -25,7 +25,12 @@ The data in these folders will be generated upon executing the results regenerat
 
 - Python 3.13 or later.
 - pip installed on your system.
+- KGHeartBeat quality data (you can download the quality data for the five time snapshots from the following link:)
 - zip on linux to extract compressed files (on Windows, any software capable of decompressing a .zip file is suitable).
+
+### Download KGHeartBeat quality data
+You can download the quality data of the five time snapshots from the following link: [https://drive.google.com/file/d/10oY0Vk-fdhzjlDoHE9_BHx-6M3mUrrS3/view?usp=sharing](https://drive.google.com/file/d/10oY0Vk-fdhzjlDoHE9_BHx-6M3mUrrS3/view?usp=sharing)
+Then put the .zip file in the [./data/quality_data/kghb_output](./data/quality_data/kghb_output/) directory.
 
 ### Linux and MacOS users
 A [shell script](./reproduce_results.sh) has been created to simplify and expedite the process of reproducing the results. Make sure to grant execution permission to the script.
